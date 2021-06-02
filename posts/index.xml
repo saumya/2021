@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Saumya</title>
+    <link>https://saumya.github.io/2021/posts/</link>
+    <description>Recent content in Posts on Saumya</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Jun 2021 21:52:12 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Again.</title>
+      <link>https://saumya.github.io/2021/posts/1/</link>
+      <pubDate>Wed, 02 Jun 2021 21:52:12 +0530</pubDate>
+      
+      <guid>https://saumya.github.io/2021/posts/1/</guid>
+      <description>A long wait is finally over.
+For a long long time I was lazy and was avoiding the work. But here it is.
+Moved to the Hugo Engine from Wintersmith Engine.
+Never thought I will continue this way. But this is good to start over and over again. This is life if one wants to live. Re-start, Re-build, Re-structure and keep living.
+The last blog is here for the new visitors here.</description>
+    </item>
+    
+  </channel>
+</rss>

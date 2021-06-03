@@ -18,19 +18,22 @@
 <div id="content">
 <section>
   <div class="title-single">
-    <h1>New Again.</h1>
-    <h2>2 Jun, 2021</h2>
+    <h1>Hugo &amp; Paths</h1>
+    <h2>3 Jun, 2021</h2>
     <h4>1 Mins Read</h4>
   </div>
   <div>
     <article>
-      <p>A long wait is finally over.</p>
-<p>For a long long time I was lazy and was avoiding the work. But here it is.</p>
-<p>Moved to the <a href="https://gohugo.io/">Hugo Engine</a> from <a href="http://wintersmith.io/">Wintersmith Engine</a>.</p>
-<p>Never thought I will continue this way. But this is good to start over and over again. This is life if one wants to live. Re-start, Re-build, Re-structure and keep living.</p>
-<p>The <a href="http://saumya.github.io/ray/">last blog is here</a> for the new visitors here.</p>
-<p>For last some years my frequency of blogging was slower than usual. That was another reason, why I was not putting effort on upgrading to new engine. Somehow things are moving in a different direction. That made me think, if I am going to do it anyway, why not now. So the upgrade. And with this, I have released the <a href="https://github.com/saumya/saumya_go_walk">theme(GoWalk) of this site as opensource</a>. It is simple and open, customise it and use it, if you want.</p>
-<p>Have a happy life.</p>
+      <p><a href="https://gohugo.io/">Hugo</a> is fast and just works.
+However there are certain things you must take into consideration while hosting it.</p>
+<p>Till now one thing I came across is the <code>path</code> for <code>css</code> files. <a href="https://gohugo.io/">Hugo</a> provides template short codes to deal with them.</p>
+<blockquote>
+<p>The templating system cares for empty spaces in the template.</p>
+</blockquote>
+<p>You should be extra careful not to put them.
+For example <code>href=&quot;{{ .Site.BaseURL }}css/2021.css&quot;</code> and <code>href=&quot;{{ .Site.BaseURL }} css/2021.css&quot;</code> are different. Can you see there is a space between <code>}}</code> and <code>css/2021.css</code> in the second example. These kind of things will break the site or theme or both.</p>
+<p>However it is a pleasant experience working with this new setup.</p>
+<p>Happy Coding.</p>
 
     </article>
   </div>
@@ -38,18 +41,18 @@
 <aside>
   <div>
     <section class="single-footer-info">
-      <h4>Wed Jun 2, 2021</h4>
+      <h4>Thu Jun 3, 2021</h4>
       <h4>1 Mins Read</h4>
-      <h4>155 Words</h4>
+      <h4>112 Words</h4>
     </section>
   </div>
   <div class="single-footer">
     <div class="">
       
+      <a class="previous" href="https://saumya.github.io/2021/posts/1/"> New Again.</a>
+      
     </div>
     <div class="">
-      
-      <a class="next" href="https://saumya.github.io/2021/posts/2/"> Hugo &amp; Paths</a>
       
     </div>
   </div>

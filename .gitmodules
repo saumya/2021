@@ -1,0 +1,3 @@
+[submodule "themes/saumya_go_walk"]
+	path = themes/saumya_go_walk
+	url = https://github.com/saumya/saumya_go_walk.git

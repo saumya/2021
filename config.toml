@@ -1,0 +1,9 @@
+baseURL = "https://saumya.github.io/2021/"
+languageCode = "en-us"
+title = "Saumya"
+
+theme=['saumya_go_walk']
+
+[params]
+AuthorName = "Saumya Ray"
+Subtitle = "Where there is a will, there is a way."

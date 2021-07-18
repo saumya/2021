@@ -7,6 +7,12 @@ Adding the theme
 git submodule add https://github.com/saumya/saumya_go_walk.git themes/saumya_go_walk
 ```
 
+### Updating Submodules (themes)
+
+```
+git submodule foreach git pull
+```
+
 ### New Post
 
 ```

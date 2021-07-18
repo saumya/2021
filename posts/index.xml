@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Saumya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Jun 2021 18:21:25 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Jul 2021 15:35:07 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project went live.</title>
+      <link>https://saumya.github.io/2021/posts/3/</link>
+      <pubDate>Sun, 18 Jul 2021 15:35:07 +0530</pubDate>
+      
+      <guid>https://saumya.github.io/2021/posts/3/</guid>
+      <description>For last 5 months, I was working on a new project. Finally it went live last week.
+ It is such an experience to be involved in this kind of projects.
+ In terms of frontend technology it is React through and through. It was a re-write of the old project. The project has a global reach and directly affects people. Whatever we are doing has a direct effect on the general people.</description>
+    </item>
+    
     <item>
       <title>Hugo &amp; Paths</title>
       <link>https://saumya.github.io/2021/posts/2/</link>

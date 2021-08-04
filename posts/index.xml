@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Saumya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Jul 2021 15:35:07 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Aug 2021 17:34:35 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>React 17. FastRefresh, not HotReload.</title>
+      <link>https://saumya.github.io/2021/posts/4/</link>
+      <pubDate>Wed, 04 Aug 2021 17:34:35 +0530</pubDate>
+      
+      <guid>https://saumya.github.io/2021/posts/4/</guid>
+      <description>A must upgrade version of React is React 17. I was surprised by the things it brings to the equation.
+ I was working on a project which is old. Not so old but kind of not recent also. And we just pushed our production application to live environment.
+ At that point I have some time to update the project. So I did. The first upgrade I thought should be the React library itself.</description>
+    </item>
+    
     <item>
       <title>Project went live.</title>
       <link>https://saumya.github.io/2021/posts/3/</link>

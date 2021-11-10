@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Saumya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Aug 2021 17:34:35 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Nov 2021 09:46:30 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Single knowledge base</title>
+      <link>https://saumya.github.io/2021/posts/5/</link>
+      <pubDate>Wed, 10 Nov 2021 09:46:30 +0530</pubDate>
+      
+      <guid>https://saumya.github.io/2021/posts/5/</guid>
+      <description>The age old problem which repeats itself is, how to make a single code base for a project which is delivered to multiple platforms?!
+ Many tachnologies has come and promised the same thing. The end result is to enter the corporate space. Why!? Money.
+ This is the true story of all the technology stacks which promise to have a single codebase. Some really nice technologies has come and stayed for good, some vanished without leaving a trace.</description>
+    </item>
+    
     <item>
       <title>React 17. FastRefresh, not HotReload.</title>
       <link>https://saumya.github.io/2021/posts/4/</link>

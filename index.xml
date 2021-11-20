@@ -6,7 +6,18 @@
     <description>Recent content on Saumya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Nov 2021 09:46:30 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Nov 2021 21:57:20 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code to throw away.</title>
+      <link>https://saumya.github.io/2021/posts/6/</link>
+      <pubDate>Sat, 20 Nov 2021 21:57:20 +0530</pubDate>
+      
+      <guid>https://saumya.github.io/2021/posts/6/</guid>
+      <description>The thing that is fixed in code is the change. While lot of books and philosophy is done towards how to reuse the code, very little is focused towards the change!
+ The reality of the life of the code is very different from the literature around it.
+ All the reusabilty and other thoughts look good in books. In reality I have hardly seen any code is re-used. This is not to diminish the reusabilty of the code.</description>
+    </item>
+    
     <item>
       <title>Single knowledge base</title>
       <link>https://saumya.github.io/2021/posts/5/</link>

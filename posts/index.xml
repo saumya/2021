@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Saumya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Nov 2021 21:57:20 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Nov 2021 11:45:53 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vite it.</title>
+      <link>https://saumya.github.io/2021/posts/7/</link>
+      <pubDate>Sun, 21 Nov 2021 11:45:53 +0530</pubDate>
+      
+      <guid>https://saumya.github.io/2021/posts/7/</guid>
+      <description>The natural progress of the frontend tooling. Whether you like it or not, change is here to stay. At the moment the frontend frameworks have reached a point, where we need something else to have a better Developer Experience.
+ Applications were always like this and will remain like this.
+ What could change is how we write these applications. Divisions have been made to separate the concerns. However in frontend, we had put very little effort in terms of development for a long long time.</description>
+    </item>
+    
     <item>
       <title>Code to throw away.</title>
       <link>https://saumya.github.io/2021/posts/6/</link>

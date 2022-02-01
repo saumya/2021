@@ -6,7 +6,19 @@
     <description>Recent content on Saumya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Jan 2022 20:34:31 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Feb 2022 22:43:48 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Powerline Fish</title>
+      <link>https://saumya.github.io/2021/posts/10/</link>
+      <pubDate>Tue, 01 Feb 2022 22:43:48 +0530</pubDate>
+      
+      <guid>https://saumya.github.io/2021/posts/10/</guid>
+      <description>Powerline is a wonderful utility apart from visually pleasing shell prompts.
+In the early days it was a whole lot of effort to install and apply it to Linux / Ubuntu. However the situations have changed. Now it is
+sudo apt install powerline and there you have it.
+Now to add this to Fish, the best way is to use Oh My Fish. Once Oh My Fish is installed, enable bobthefish theme.</description>
+    </item>
+    
     <item>
       <title>.bashrc / .bash_profile</title>
       <link>https://saumya.github.io/2021/posts/9/</link>

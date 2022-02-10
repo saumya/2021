@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="stylesheet" href="https://saumya.github.io/2021/css/2021.css">
+
+  <title>
+    Saumya
+  </title>
+
+</head>
+<body>
+      <section class="section-main"><div class="header-info">
+
+</div>
+<div id="content">
+<section>
+  <div class="title-single">
+    <h1>Setting different Yarn versions in Ubuntu / Linux</h1>
+    <h2>10 Feb, 2022</h2>
+    <h4>2 Mins Read</h4>
+  </div>
+  <div>
+    <article>
+      <p>This should be a one liner as per the <a href="https://yarnpkg.com/cli/set/version">Yarn Docs</a>.</p>
+<p>It doesnot work always like that.</p>
+<h2 id="the-problem">The problem</h2>
+<p>This happens if you have installed the latest version of <a href="https://yarnpkg.com/getting-started/install">Yarn</a>. Then and only then one can change <code>Yarn</code> versions. After installing the latest version of <code>Yarn</code>, we can use the old version by setting Yarn to older version.</p>
+<blockquote>
+<p>yarn set version classic</p>
+</blockquote>
+<p>The <code>classic</code> version is <code>1.x</code> version.</p>
+<p>At this point we are good for our projects which use <code>Yarn</code> version 1.x.</p>
+<p>When we need to work on something which uses latest version of Yarn, then it should be just setting the Yarn version to latest.</p>
+<blockquote>
+<p>yarn set version latest</p>
+</blockquote>
+<p>Now <code>Yarn</code> will not do the update. However, it shows the message as <code>Why</code> it will not do that.</p>
+<blockquote>
+<p>Warning: Your current Yarn binary is currently Yarn 1.22.15; to avoid potential breaking changes, &lsquo;set version latest&rsquo; won&rsquo;t receive upgrades past the 1.22.x branch.
+To upgrade to the latest versions, run yarn set version stable instead. Sorry for the inconvenience.</p>
+</blockquote>
+<h2 id="the-solution">The solution</h2>
+<p>It is actually said in the <code>Warning</code>.</p>
+<blockquote>
+<p>yarn set version stable</p>
+</blockquote>
+<p>Once this is done, Yarn can do <code>latest</code>. From this point onwards the projects depending on latest version of Yarn will work.</p>
+<p>But then sometimes <code>yarn set version stable</code> also will not update the Yarn from <code>classic</code>! This is not a big thing, but may come as a surprise! To fix this, we need to remove some files which are present at <code>~/</code> , that is at the UserHome folder. The files are</p>
+<ul>
+<li>package.json</li>
+<li>yarn-error.log</li>
+<li>.yarnrc</li>
+<li>.yarnrc.yml</li>
+</ul>
+<p>Some files might be present, some might not be present. Just remove all the files which are available from this list. And then run the <code>yarn set version</code> command.</p>
+<p>This does the trick.</p>
+
+    </article>
+  </div>
+</section>
+<aside>
+  <div>
+    <section class="single-footer-info">
+      <h4>Thu Feb 10, 2022</h4>
+      <h4>2 Mins Read</h4>
+      <h4>292 Words</h4>
+    </section>
+  </div>
+  <div class="single-footer">
+    <div class="">
+      
+      <a class="previous" href="https://saumya.github.io/2021/posts/11/"> Reviving my MacBookPro</a>
+      
+    </div>
+    <div class="">
+      
+    </div>
+  </div>
+</aside>
+
+
+        
+
+        </div><footer>
+
+  <nav>
+    <div>
+      <a href="/">
+        Saumya
+      </a>
+    </div>
+
+    <div>
+      <a href="https://saumya.github.io/2021/">
+        Home
+      </a>
+    </div>
+    <div>
+      <a href="https://saumya.github.io/2021/posts">
+        Posts
+      </a>
+    </div>
+    <div>
+      <a href="https://saumya.github.io/2021/index.xml">
+        RSS
+      </a>
+    </div>
+  </nav>
+
+  <div class="footer-intro">
+    <div class="footer-intro-description">
+      <strong>Saumya</strong> is an iternal seeker. A maker of things and curious about everything. Continuous learning is, what fuels him. This blog itself, reflects one of many things he is trying at all the time. 
+    </div>
+    <div class="footer-rights">
+      Saumya | 2022 | No rights reserved.
+    </div>
+  </div>
+
+
+</footer>
+</section>
+    </body>
+</html>

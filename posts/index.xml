@@ -6,7 +6,20 @@
     <description>Recent content in Posts on Saumya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Feb 2022 14:51:16 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Feb 2022 22:21:04 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Copying folder with Python</title>
+      <link>https://saumya.github.io/2021/posts/13/</link>
+      <pubDate>Sat, 12 Feb 2022 22:21:04 +0530</pubDate>
+      
+      <guid>https://saumya.github.io/2021/posts/13/</guid>
+      <description>Python is powerful like anyother programming language. However the simplicity of it makes it more beautiful.
+I was trying to automate some of my tasks and this needed copying of a folder with all its files and folders and files inside those folders to a new location. With Python it just took some lines and the task is done!
+ import shutil
+shutil.copytree(source_folder, destination_folder, dirs_exist_ok = True)
+ The shutil is a utility to deal with file operations.</description>
+    </item>
+    
     <item>
       <title>Setting different Yarn versions in Ubuntu / Linux</title>
       <link>https://saumya.github.io/2021/posts/12/</link>

@@ -6,7 +6,19 @@
     <description>Recent content on Saumya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Feb 2022 22:17:37 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Feb 2022 13:06:42 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SVG on Web</title>
+      <link>https://saumya.github.io/2021/posts/16/</link>
+      <pubDate>Sat, 26 Feb 2022 13:06:42 +0530</pubDate>
+      
+      <guid>https://saumya.github.io/2021/posts/16/</guid>
+      <description>SVG is fine jsut to know it as an image format.
+However, to deal with SVG on a web application as a developer is a different thing. SVG is too generic for better or worse as Javascript. Unless you know your way through it, it might seem confusing or easy.
+First is there are many ways to include SVG in web.
+The basic is just the tag itself. It is a valid HTML tag.</description>
+    </item>
+    
     <item>
       <title>VIM Plugin NERDTree</title>
       <link>https://saumya.github.io/2021/posts/15/</link>

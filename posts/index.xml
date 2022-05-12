@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Saumya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Feb 2022 13:06:42 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 May 2022 22:08:27 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu 22.04</title>
+      <link>https://saumya.github.io/2021/posts/17/</link>
+      <pubDate>Thu, 12 May 2022 22:08:27 +0530</pubDate>
+      
+      <guid>https://saumya.github.io/2021/posts/17/</guid>
+      <description>My working machine is a Linux machine for some years now.
+I never felt this kind of freedom and productive before. Now I can say it is even better than MacOS in terms of developer freedom and easiness. It is better than Windows in terms of GUI applications. The time has gone when Linux used to be command only. Today the GUI applications are much better in Linux than Windows.</description>
+    </item>
+    
     <item>
       <title>SVG on Web</title>
       <link>https://saumya.github.io/2021/posts/16/</link>

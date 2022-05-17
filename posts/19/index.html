@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="stylesheet" href="https://saumya.github.io/2021/css/2021.css">
+
+  <title>
+    Saumya
+  </title>
+
+</head>
+<body>
+      <section class="section-main"><div class="header-info">
+
+</div>
+<div id="content">
+<section>
+  <div class="title-single">
+    <h1>React Component and props.children</h1>
+    <h2>17 May, 2022</h2>
+    <h4>1 Mins Read</h4>
+  </div>
+  <div>
+    <article>
+      <p>The game of <a href="https://reactjs.org/">React</a> is in its components. Almost everything here is a component.  Sooner or later the need to pass properties to components will arise. This is straight forward as we know like this.</p>
+<pre tabindex="0"><code>&lt;MyComp myTitle='Nice Component' /&gt;
+</code></pre><p>Inside component we can access this with <code>props.myTitle</code>.</p>
+<pre tabindex="0"><code>const MyComp = (props)=&gt;{	
+	return(
+		&lt;div&gt;
+			{ props.myTitle }
+		&lt;/div&gt;
+	)
+}
+
+</code></pre><p>This can also be written as below.</p>
+<pre tabindex="0"><code>const MyComp = ( {myTitle} )=&gt;{	
+	return(
+		&lt;div&gt;
+			{ myTitle }
+		&lt;/div&gt;
+	)
+}
+
+</code></pre><blockquote>
+<p>There is a nice magic <code>props</code> that <a href="https://reactjs.org/">React</a> has, on all the components. That is known as <code>props.children</code>.</p>
+</blockquote>
+<p>This <code>props</code> takes all the elements inside the opening and closing of the component tag and passes it to the component as <code>children</code>.</p>
+<pre tabindex="0"><code>&lt;MyComp&gt;
+	&lt;div&gt; Title &lt;/div&gt;
+	&lt;div&gt; Sub Title &lt;/div&gt;
+	&lt;div&gt; Description &lt;/div
+&lt;/MyComp&gt;
+</code></pre><p>While defining the <code>MyComp</code> component, we can access these like below.</p>
+<pre tabindex="0"><code>const MyComp = (props)=&gt;{
+	return(
+		&lt;div&gt;
+			{ props.children }
+		&lt;/div&gt;
+	)
+}
+</code></pre><p>This is very helpful to know while writing components which can have child components inside of it. This way, one can write the components tag as if it is HTML tag.</p>
+<p>Happy Coding.</p>
+
+    </article>
+  </div>
+</section>
+<aside>
+  <div>
+    <section class="single-footer-info">
+      <h4>Tue May 17, 2022</h4>
+      <h4>1 Mins Read</h4>
+      <h4>189 Words</h4>
+    </section>
+  </div>
+  <div class="single-footer">
+    <div class="">
+      
+      <a class="previous" href="https://saumya.github.io/2021/posts/18/"> Managing Component Code in ReactJS</a>
+      
+    </div>
+    <div class="">
+      
+    </div>
+  </div>
+</aside>
+
+
+        
+
+        </div><footer>
+
+  <nav>
+    <div>
+      <a href="/">
+        Saumya
+      </a>
+    </div>
+
+    <div>
+      <a href="https://saumya.github.io/2021/">
+        Home
+      </a>
+    </div>
+    <div>
+      <a href="https://saumya.github.io/2021/posts">
+        Posts
+      </a>
+    </div>
+    <div>
+      <a href="https://saumya.github.io/2021/index.xml">
+        RSS
+      </a>
+    </div>
+  </nav>
+
+  <div class="footer-intro">
+    <div class="footer-intro-description">
+      <strong>Saumya</strong> is an iternal seeker. A maker of things and curious about everything. Continuous learning is, what fuels him. This blog itself, reflects one of many things he is trying at all the time. 
+    </div>
+    <div class="footer-rights">
+      Saumya | 2022 | No rights reserved.
+    </div>
+  </div>
+
+
+</footer>
+</section>
+    </body>
+</html>

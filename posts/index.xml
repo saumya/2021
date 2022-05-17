@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Saumya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 May 2022 11:27:24 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 May 2022 15:29:17 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>React Component and props.children</title>
+      <link>https://saumya.github.io/2021/posts/19/</link>
+      <pubDate>Tue, 17 May 2022 15:29:17 +0530</pubDate>
+      
+      <guid>https://saumya.github.io/2021/posts/19/</guid>
+      <description>The game of React is in its components. Almost everything here is a component. Sooner or later the need to pass properties to components will arise. This is straight forward as we know like this.
+&amp;lt;MyComp myTitle=&#39;Nice Component&#39; /&amp;gt; Inside component we can access this with props.myTitle.
+const MyComp = (props)=&amp;gt;{	return( &amp;lt;div&amp;gt; { props.myTitle } &amp;lt;/div&amp;gt; ) } This can also be written as below.
+const MyComp = ( {myTitle} )=&amp;gt;{	return( &amp;lt;div&amp;gt; { myTitle } &amp;lt;/div&amp;gt; ) }  There is a nice magic props that React has, on all the components.</description>
+    </item>
+    
     <item>
       <title>Managing Component Code in ReactJS</title>
       <link>https://saumya.github.io/2021/posts/18/</link>

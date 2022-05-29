@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="stylesheet" href="https://saumya.github.io/2021/css/2021.css">
+
+  <title>
+    Saumya
+  </title>
+
+</head>
+<body>
+      <section class="section-main"><div class="header-info">
+
+</div>
+<div id="content">
+<section>
+  <div class="title-single">
+    <h1>React State update</h1>
+    <h2>29 May, 2022</h2>
+    <h4>1 Mins Read</h4>
+  </div>
+  <div>
+    <article>
+      <p>Updating a state in <a href="https://reactjs.org/">React</a> looks something like below.</p>
+<pre tabindex="0"><code>	const [count, setCount] = useState(0)
+	setCount(5)
+</code></pre><p>Here the new value of the <code>count</code> is provided to <code>setCount</code>. That updates the <code>state</code> of <code>count</code> to its new value.</p>
+<p>This is the most used form of the <code>state</code> update.</p>
+<p>However, there is another form of this functionality. This looks like below.</p>
+<pre tabindex="0"><code>	setState( previousState=&gt;{
+		// Do Something with Previous Data
+		// And return the newly created Data
+		return( newState )
+		} )
+</code></pre><p>So the code <code>setCount(5)</code> will become like below.</p>
+<pre tabindex="0"><code>	setCount( previousCount =&gt; { return(5) } )
+</code></pre><p>This is a most useful utility once you fall into a place where you need it.</p>
+<p>Happy Coding.</p>
+
+    </article>
+  </div>
+</section>
+<aside>
+  <div>
+    <section class="single-footer-info">
+      <h4>Sun May 29, 2022</h4>
+      <h4>1 Mins Read</h4>
+      <h4>111 Words</h4>
+    </section>
+  </div>
+  <div class="single-footer">
+    <div class="">
+      
+      <a class="previous" href="https://saumya.github.io/2021/posts/19/"> React Component and props.children</a>
+      
+    </div>
+    <div class="">
+      
+    </div>
+  </div>
+</aside>
+
+
+        
+
+        </div><footer>
+
+  <nav>
+    <div>
+      <a href="/">
+        Saumya
+      </a>
+    </div>
+
+    <div>
+      <a href="https://saumya.github.io/2021/">
+        Home
+      </a>
+    </div>
+    <div>
+      <a href="https://saumya.github.io/2021/posts">
+        Posts
+      </a>
+    </div>
+    <div>
+      <a href="https://saumya.github.io/2021/index.xml">
+        RSS
+      </a>
+    </div>
+  </nav>
+
+  <div class="footer-intro">
+    <div class="footer-intro-description">
+      <strong>Saumya</strong> is an iternal seeker. A maker of things and curious about everything. Continuous learning is, what fuels him. This blog itself, reflects one of many things he is trying at all the time. 
+    </div>
+    <div class="footer-rights">
+      Saumya | 2022 | No rights reserved.
+    </div>
+  </div>
+
+
+</footer>
+</section>
+    </body>
+</html>

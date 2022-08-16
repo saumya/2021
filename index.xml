@@ -6,7 +6,18 @@
     <description>Recent content on Saumya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 May 2022 13:05:17 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Aug 2022 10:59:17 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Working with YARN</title>
+      <link>https://saumya.github.io/2021/posts/21/</link>
+      <pubDate>Tue, 16 Aug 2022 10:59:17 +0530</pubDate>
+      
+      <guid>https://saumya.github.io/2021/posts/21/</guid>
+      <description>Working in Yarn was a little involved. That is Yarn version 1. One has to play around with Node and NPM to make things setup. With Yarn version 2 and above, this is mostly done by Node and a new utility called corepack.
+Now, Yarn does not need to be installed as a global package. Yarn can be enabled for individual projects (individual folders).
+The corepack enable is all there is to it.</description>
+    </item>
+    
     <item>
       <title>React State update</title>
       <link>https://saumya.github.io/2021/posts/20/</link>
@@ -14,10 +25,10 @@
       
       <guid>https://saumya.github.io/2021/posts/20/</guid>
       <description>Updating a state in React looks something like below.
-	const [count, setCount] = useState(0) setCount(5) Here the new value of the count is provided to setCount. That updates the state of count to its new value.
+const [count, setCount] = useState(0) setCount(5) Here the new value of the count is provided to setCount. That updates the state of count to its new value.
 This is the most used form of the state update.
 However, there is another form of this functionality. This looks like below.
-	setState( previousState=&amp;gt;{ // Do Something with Previous Data // And return the newly created Data return( newState ) } ) So the code setCount(5) will become like below.</description>
+setState( previousState=&amp;gt;{ // Do Something with Previous Data // And return the newly created Data return( newState ) } ) So the code setCount(5) will become like below.</description>
     </item>
     
     <item>
@@ -27,9 +38,9 @@ However, there is another form of this functionality. This looks like below.
       
       <guid>https://saumya.github.io/2021/posts/19/</guid>
       <description>The game of React is in its components. Almost everything here is a component. Sooner or later the need to pass properties to components will arise. This is straight forward as we know like this.
-&amp;lt;MyComp myTitle=&#39;Nice Component&#39; /&amp;gt; Inside component we can access this with props.myTitle.
+&amp;lt;MyComp myTitle=&amp;#39;Nice Component&amp;#39; /&amp;gt; Inside component we can access this with props.myTitle.
 const MyComp = (props)=&amp;gt;{	return( &amp;lt;div&amp;gt; { props.myTitle } &amp;lt;/div&amp;gt; ) } This can also be written as below.
-const MyComp = ( {myTitle} )=&amp;gt;{	return( &amp;lt;div&amp;gt; { myTitle } &amp;lt;/div&amp;gt; ) }  There is a nice magic props that React has, on all the components.</description>
+const MyComp = ( {myTitle} )=&amp;gt;{	return( &amp;lt;div&amp;gt; { myTitle } &amp;lt;/div&amp;gt; ) } There is a nice magic props that React has, on all the components.</description>
     </item>
     
     <item>
@@ -39,8 +50,8 @@ const MyComp = ( {myTitle} )=&amp;gt;{	return( &amp;lt;div&amp;gt; { myTitle } &
       
       <guid>https://saumya.github.io/2021/posts/18/</guid>
       <description>React defines and speculates about how to manage code files for components. There are so many documentation and tools available as per the best practices and perfect scenaios. However as per my experience no perfect scenario ever worked for any individual or company.
- There is difference between perfect scenario and working scenario.
- While everyone should try to stick to the best practices and perfect scenarios, it is a perpetual job.</description>
+There is difference between perfect scenario and working scenario.
+While everyone should try to stick to the best practices and perfect scenarios, it is a perpetual job. It never ends.</description>
     </item>
     
     <item>
@@ -72,8 +83,8 @@ The basic is just the tag itself. It is a valid HTML tag.</description>
       
       <guid>https://saumya.github.io/2021/posts/15/</guid>
       <description>Installing a VIM plugin in Ubuntu is not that complicated as it used to be. All one has to do is put the plugin in a proper folder. However, do not confuse yourself VIM with VI. By default Ubuntu comes installed with VI and not VIM. Even if you put the VIM plugin in the proper place, it will not reflect in this editor.
- First install VIM.
- For Ubuntu it is just sudo apt install vim.</description>
+First install VIM.
+For Ubuntu it is just sudo apt install vim.</description>
     </item>
     
     <item>
@@ -93,9 +104,9 @@ The basic is just the tag itself. It is a valid HTML tag.</description>
       <guid>https://saumya.github.io/2021/posts/13/</guid>
       <description>Python is powerful like anyother programming language. However the simplicity of it makes it more beautiful.
 I was trying to automate some of my tasks and this needed copying of a folder with all its files and folders and files inside those folders to a new location. With Python it just took some lines and the task is done!
- import shutil
+import shutil
 shutil.copytree(source_folder, destination_folder, dirs_exist_ok = True)
- The shutil is a utility to deal with file operations.</description>
+The shutil is a utility to deal with file operations.</description>
     </item>
     
     <item>
@@ -107,8 +118,9 @@ shutil.copytree(source_folder, destination_folder, dirs_exist_ok = True)
       <description>This should be a one liner as per the Yarn Docs.
 It doesnot work always like that.
 The problem This happens if you have installed the latest version of Yarn. Then and only then one can change Yarn versions. After installing the latest version of Yarn, we can use the old version by setting Yarn to older version.
- yarn set version classic
- The classic version is 1.x version.</description>
+yarn set version classic
+The classic version is 1.x version.
+At this point we are good for our projects which use Yarn version 1.</description>
     </item>
     
     <item>
@@ -118,7 +130,7 @@ The problem This happens if you have installed the latest version of Yarn. Then 
       
       <guid>https://saumya.github.io/2021/posts/11/</guid>
       <description>The thing is, Apple does not care about anything else but money.
- Apple products are good. They work as Apple expects them to work. People just follow along and pride themselves for having an Apple device. The products die when Apple wants them to die.  Now my device, MacBookPro which is still good in terms of Hardware, Apple software does not get updated in this. As per Apple the device needs an upgrade.</description>
+Apple products are good. They work as Apple expects them to work. People just follow along and pride themselves for having an Apple device. The products die when Apple wants them to die. Now my device, MacBookPro which is still good in terms of Hardware, Apple software does not get updated in this. As per Apple the device needs an upgrade.</description>
     </item>
     
     <item>
@@ -142,7 +154,7 @@ Now to add this to Fish, the best way is to use Oh My Fish. Once Oh My Fish is i
       <description>Setting up any UNIX like system comes down to a single startup file. There could be many, if one wants to, the freedom is always there. But generally it starts at a single point.
 OSX / MacOS In this land the file is .bash_profile. Almost all the things can be configured here.
 UBUNTU / Linux Here the file is .bashrc. All the PATH and systemwide settings reside here.
- Both of these files stay in the root of the user home folder in both MacOS and UBUNTU.</description>
+Both of these files stay in the root of the user home folder in both MacOS and UBUNTU.</description>
     </item>
     
     <item>
@@ -152,8 +164,8 @@ UBUNTU / Linux Here the file is .bashrc. All the PATH and systemwide settings re
       
       <guid>https://saumya.github.io/2021/posts/8/</guid>
       <description>The year started slow but kept up the steadiness. There were a lot of endings and new beginnings. As always if it flows, it is life.
-Tech and work  A new project started.
- For a long long time I was in a stealth mode. Bootstrapping and failing, then start over again and fail. The cycle finally ended. There are huge experience gain in terms of building a product and selling it.</description>
+Tech and work A new project started.
+For a long long time I was in a stealth mode. Bootstrapping and failing, then start over again and fail. The cycle finally ended. There are huge experience gain in terms of building a product and selling it.</description>
     </item>
     
     <item>
@@ -163,8 +175,8 @@ Tech and work  A new project started.
       
       <guid>https://saumya.github.io/2021/posts/7/</guid>
       <description>The natural progress of the frontend tooling. Whether you like it or not, change is here to stay. At the moment the frontend frameworks have reached a point, where we need something else to have a better Developer Experience.
- Applications were always like this and will remain like this.
- What could change is how we write these applications. Divisions have been made to separate the concerns. However in frontend, we had put very little effort in terms of development for a long long time.</description>
+Applications were always like this and will remain like this.
+What could change is how we write these applications. Divisions have been made to separate the concerns. However in frontend, we had put very little effort in terms of development for a long long time.</description>
     </item>
     
     <item>
@@ -174,8 +186,8 @@ Tech and work  A new project started.
       
       <guid>https://saumya.github.io/2021/posts/6/</guid>
       <description>The thing that is fixed in code is the change. While lot of books and philosophy is done towards how to reuse the code, very little is focused towards the change!
- The reality of the life of the code is very different from the literature around it.
- All the reusabilty and other thoughts look good in books. In reality I have hardly seen any code is re-used. This is not to diminish the reusabilty of the code.</description>
+The reality of the life of the code is very different from the literature around it.
+All the reusabilty and other thoughts look good in books. In reality I have hardly seen any code is re-used. This is not to diminish the reusabilty of the code.</description>
     </item>
     
     <item>
@@ -185,8 +197,8 @@ Tech and work  A new project started.
       
       <guid>https://saumya.github.io/2021/posts/5/</guid>
       <description>The age old problem which repeats itself is, how to make a single code base for a project which is delivered to multiple platforms?!
- Many tachnologies has come and promised the same thing. The end result is to enter the corporate space. Why!? Money.
- This is the true story of all the technology stacks which promise to have a single codebase. Some really nice technologies has come and stayed for good, some vanished without leaving a trace.</description>
+Many tachnologies has come and promised the same thing. The end result is to enter the corporate space. Why!? Money.
+This is the true story of all the technology stacks which promise to have a single codebase. Some really nice technologies has come and stayed for good, some vanished without leaving a trace.</description>
     </item>
     
     <item>
@@ -196,8 +208,8 @@ Tech and work  A new project started.
       
       <guid>https://saumya.github.io/2021/posts/4/</guid>
       <description>A must upgrade version of React is React 17. I was surprised by the things it brings to the equation.
- I was working on a project which is old. Not so old but kind of not recent also. And we just pushed our production application to live environment.
- At that point I have some time to update the project. So I did. The first upgrade I thought should be the React library itself.</description>
+I was working on a project which is old. Not so old but kind of not recent also. And we just pushed our production application to live environment.
+At that point I have some time to update the project. So I did. The first upgrade I thought should be the React library itself.</description>
     </item>
     
     <item>
@@ -207,8 +219,8 @@ Tech and work  A new project started.
       
       <guid>https://saumya.github.io/2021/posts/3/</guid>
       <description>For last 5 months, I was working on a new project. Finally it went live last week.
- It is such an experience to be involved in this kind of projects.
- In terms of frontend technology it is React through and through. It was a re-write of the old project. The project has a global reach and directly affects people. Whatever we are doing has a direct effect on the general people.</description>
+It is such an experience to be involved in this kind of projects.
+In terms of frontend technology it is React through and through. It was a re-write of the old project. The project has a global reach and directly affects people. Whatever we are doing has a direct effect on the general people.</description>
     </item>
     
     <item>
@@ -219,8 +231,8 @@ Tech and work  A new project started.
       <guid>https://saumya.github.io/2021/posts/2/</guid>
       <description>Hugo is fast and just works. However there are certain things you must take into consideration while hosting it.
 Till now one thing I came across is the path for css files. Hugo provides template short codes to deal with them.
- The templating system cares for empty spaces in the template.
- You should be extra careful not to put them. For example href=&amp;quot;{{ .Site.BaseURL }}css/2021.css&amp;quot; and href=&amp;quot;{{ .Site.BaseURL }} css/2021.</description>
+The templating system cares for empty spaces in the template.
+You should be extra careful not to put them. For example href=&amp;quot;{{ .Site.BaseURL }}css/2021.css&amp;quot; and href=&amp;quot;{{ .Site.BaseURL }} css/2021.css&amp;quot; are different.</description>
     </item>
     
     <item>

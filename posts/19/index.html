@@ -25,7 +25,7 @@
   <div>
     <article>
       <p>The game of <a href="https://reactjs.org/">React</a> is in its components. Almost everything here is a component.  Sooner or later the need to pass properties to components will arise. This is straight forward as we know like this.</p>
-<pre tabindex="0"><code>&lt;MyComp myTitle='Nice Component' /&gt;
+<pre tabindex="0"><code>&lt;MyComp myTitle=&#39;Nice Component&#39; /&gt;
 </code></pre><p>Inside component we can access this with <code>props.myTitle</code>.</p>
 <pre tabindex="0"><code>const MyComp = (props)=&gt;{	
 	return(
@@ -34,7 +34,6 @@
 		&lt;/div&gt;
 	)
 }
-
 </code></pre><p>This can also be written as below.</p>
 <pre tabindex="0"><code>const MyComp = ( {myTitle} )=&gt;{	
 	return(
@@ -43,7 +42,6 @@
 		&lt;/div&gt;
 	)
 }
-
 </code></pre><blockquote>
 <p>There is a nice magic <code>props</code> that <a href="https://reactjs.org/">React</a> has, on all the components. That is known as <code>props.children</code>.</p>
 </blockquote>

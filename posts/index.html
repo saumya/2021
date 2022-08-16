@@ -25,6 +25,32 @@
       <div class="summary-point">
 
   <div class="summary-topic-point">
+    <div class="txt-big-1">16</div>
+    <div>Aug, 2022</div>
+    <div class="txt-sm-1">1 Minutes</div>
+  </div>
+
+  <div class="">
+    <a href="https://saumya.github.io/2021/posts/21/">
+      <div class="summary-title">
+        Working with YARN
+      </div>
+    </a>
+    <div class="summary-description">
+      Working in Yarn was a little involved. That is Yarn version 1. One has to play around with Node and NPM to make things setup. With Yarn version 2 and above, this is mostly done by Node and a new utility called corepack.
+Now, Yarn does not need to be installed as a global package. Yarn can be enabled for individual projects (individual folders).
+The corepack enable is all there is to it.
+    </div>
+  </div>
+
+
+
+</div>
+
+    
+      <div class="summary-point">
+
+  <div class="summary-topic-point">
     <div class="txt-big-1">29</div>
     <div>May, 2022</div>
     <div class="txt-sm-1">1 Minutes</div>
@@ -38,10 +64,10 @@
     </a>
     <div class="summary-description">
       Updating a state in React looks something like below.
-	const [count, setCount] = useState(0) setCount(5) Here the new value of the count is provided to setCount. That updates the state of count to its new value.
+const [count, setCount] = useState(0) setCount(5) Here the new value of the count is provided to setCount. That updates the state of count to its new value.
 This is the most used form of the state update.
 However, there is another form of this functionality. This looks like below.
-	setState( previousState=&gt;{ // Do Something with Previous Data // And return the newly created Data return( newState ) } ) So the code setCount(5) will become like below.
+setState( previousState=&gt;{ // Do Something with Previous Data // And return the newly created Data return( newState ) } ) So the code setCount(5) will become like below.
     </div>
   </div>
 
@@ -66,9 +92,9 @@ However, there is another form of this functionality. This looks like below.
     </a>
     <div class="summary-description">
       The game of React is in its components. Almost everything here is a component. Sooner or later the need to pass properties to components will arise. This is straight forward as we know like this.
-&lt;MyComp myTitle='Nice Component' /&gt; Inside component we can access this with props.myTitle.
+&lt;MyComp myTitle=&#39;Nice Component&#39; /&gt; Inside component we can access this with props.myTitle.
 const MyComp = (props)=&gt;{	return( &lt;div&gt; { props.myTitle } &lt;/div&gt; ) } This can also be written as below.
-const MyComp = ( {myTitle} )=&gt;{	return( &lt;div&gt; { myTitle } &lt;/div&gt; ) }  There is a nice magic props that React has, on all the components.
+const MyComp = ( {myTitle} )=&gt;{	return( &lt;div&gt; { myTitle } &lt;/div&gt; ) } There is a nice magic props that React has, on all the components.
     </div>
   </div>
 
@@ -93,8 +119,8 @@ const MyComp = ( {myTitle} )=&gt;{	return( &lt;div&gt; { myTitle } &lt;/div&gt; 
     </a>
     <div class="summary-description">
       React defines and speculates about how to manage code files for components. There are so many documentation and tools available as per the best practices and perfect scenaios. However as per my experience no perfect scenario ever worked for any individual or company.
- There is difference between perfect scenario and working scenario.
- While everyone should try to stick to the best practices and perfect scenarios, it is a perpetual job.
+There is difference between perfect scenario and working scenario.
+While everyone should try to stick to the best practices and perfect scenarios, it is a perpetual job. It never ends.
     </div>
   </div>
 
@@ -171,8 +197,8 @@ The basic is just the tag itself. It is a valid HTML tag.
     </a>
     <div class="summary-description">
       Installing a VIM plugin in Ubuntu is not that complicated as it used to be. All one has to do is put the plugin in a proper folder. However, do not confuse yourself VIM with VI. By default Ubuntu comes installed with VI and not VIM. Even if you put the VIM plugin in the proper place, it will not reflect in this editor.
- First install VIM.
- For Ubuntu it is just sudo apt install vim.
+First install VIM.
+For Ubuntu it is just sudo apt install vim.
     </div>
   </div>
 
@@ -222,9 +248,9 @@ The basic is just the tag itself. It is a valid HTML tag.
     <div class="summary-description">
       Python is powerful like anyother programming language. However the simplicity of it makes it more beautiful.
 I was trying to automate some of my tasks and this needed copying of a folder with all its files and folders and files inside those folders to a new location. With Python it just took some lines and the task is done!
- import shutil
+import shutil
 shutil.copytree(source_folder, destination_folder, dirs_exist_ok = True)
- The shutil is a utility to deal with file operations.
+The shutil is a utility to deal with file operations.
     </div>
   </div>
 
@@ -251,8 +277,9 @@ shutil.copytree(source_folder, destination_folder, dirs_exist_ok = True)
       This should be a one liner as per the Yarn Docs.
 It doesnot work always like that.
 The problem This happens if you have installed the latest version of Yarn. Then and only then one can change Yarn versions. After installing the latest version of Yarn, we can use the old version by setting Yarn to older version.
- yarn set version classic
- The classic version is 1.x version.
+yarn set version classic
+The classic version is 1.x version.
+At this point we are good for our projects which use Yarn version 1.
     </div>
   </div>
 
@@ -277,7 +304,7 @@ The problem This happens if you have installed the latest version of Yarn. Then 
     </a>
     <div class="summary-description">
       The thing is, Apple does not care about anything else but money.
- Apple products are good. They work as Apple expects them to work. People just follow along and pride themselves for having an Apple device. The products die when Apple wants them to die.  Now my device, MacBookPro which is still good in terms of Hardware, Apple software does not get updated in this. As per Apple the device needs an upgrade.
+Apple products are good. They work as Apple expects them to work. People just follow along and pride themselves for having an Apple device. The products die when Apple wants them to die. Now my device, MacBookPro which is still good in terms of Hardware, Apple software does not get updated in this. As per Apple the device needs an upgrade.
     </div>
   </div>
 
@@ -331,7 +358,7 @@ Now to add this to Fish, the best way is to use Oh My Fish. Once Oh My Fish is i
       Setting up any UNIX like system comes down to a single startup file. There could be many, if one wants to, the freedom is always there. But generally it starts at a single point.
 OSX / MacOS In this land the file is .bash_profile. Almost all the things can be configured here.
 UBUNTU / Linux Here the file is .bashrc. All the PATH and systemwide settings reside here.
- Both of these files stay in the root of the user home folder in both MacOS and UBUNTU.
+Both of these files stay in the root of the user home folder in both MacOS and UBUNTU.
     </div>
   </div>
 
@@ -356,8 +383,8 @@ UBUNTU / Linux Here the file is .bashrc. All the PATH and systemwide settings re
     </a>
     <div class="summary-description">
       The year started slow but kept up the steadiness. There were a lot of endings and new beginnings. As always if it flows, it is life.
-Tech and work  A new project started.
- For a long long time I was in a stealth mode. Bootstrapping and failing, then start over again and fail. The cycle finally ended. There are huge experience gain in terms of building a product and selling it.
+Tech and work A new project started.
+For a long long time I was in a stealth mode. Bootstrapping and failing, then start over again and fail. The cycle finally ended. There are huge experience gain in terms of building a product and selling it.
     </div>
   </div>
 
@@ -382,8 +409,8 @@ Tech and work  A new project started.
     </a>
     <div class="summary-description">
       The natural progress of the frontend tooling. Whether you like it or not, change is here to stay. At the moment the frontend frameworks have reached a point, where we need something else to have a better Developer Experience.
- Applications were always like this and will remain like this.
- What could change is how we write these applications. Divisions have been made to separate the concerns. However in frontend, we had put very little effort in terms of development for a long long time.
+Applications were always like this and will remain like this.
+What could change is how we write these applications. Divisions have been made to separate the concerns. However in frontend, we had put very little effort in terms of development for a long long time.
     </div>
   </div>
 
@@ -408,8 +435,8 @@ Tech and work  A new project started.
     </a>
     <div class="summary-description">
       The thing that is fixed in code is the change. While lot of books and philosophy is done towards how to reuse the code, very little is focused towards the change!
- The reality of the life of the code is very different from the literature around it.
- All the reusabilty and other thoughts look good in books. In reality I have hardly seen any code is re-used. This is not to diminish the reusabilty of the code.
+The reality of the life of the code is very different from the literature around it.
+All the reusabilty and other thoughts look good in books. In reality I have hardly seen any code is re-used. This is not to diminish the reusabilty of the code.
     </div>
   </div>
 
@@ -434,8 +461,8 @@ Tech and work  A new project started.
     </a>
     <div class="summary-description">
       The age old problem which repeats itself is, how to make a single code base for a project which is delivered to multiple platforms?!
- Many tachnologies has come and promised the same thing. The end result is to enter the corporate space. Why!? Money.
- This is the true story of all the technology stacks which promise to have a single codebase. Some really nice technologies has come and stayed for good, some vanished without leaving a trace.
+Many tachnologies has come and promised the same thing. The end result is to enter the corporate space. Why!? Money.
+This is the true story of all the technology stacks which promise to have a single codebase. Some really nice technologies has come and stayed for good, some vanished without leaving a trace.
     </div>
   </div>
 
@@ -460,8 +487,8 @@ Tech and work  A new project started.
     </a>
     <div class="summary-description">
       A must upgrade version of React is React 17. I was surprised by the things it brings to the equation.
- I was working on a project which is old. Not so old but kind of not recent also. And we just pushed our production application to live environment.
- At that point I have some time to update the project. So I did. The first upgrade I thought should be the React library itself.
+I was working on a project which is old. Not so old but kind of not recent also. And we just pushed our production application to live environment.
+At that point I have some time to update the project. So I did. The first upgrade I thought should be the React library itself.
     </div>
   </div>
 
@@ -486,8 +513,8 @@ Tech and work  A new project started.
     </a>
     <div class="summary-description">
       For last 5 months, I was working on a new project. Finally it went live last week.
- It is such an experience to be involved in this kind of projects.
- In terms of frontend technology it is React through and through. It was a re-write of the old project. The project has a global reach and directly affects people. Whatever we are doing has a direct effect on the general people.
+It is such an experience to be involved in this kind of projects.
+In terms of frontend technology it is React through and through. It was a re-write of the old project. The project has a global reach and directly affects people. Whatever we are doing has a direct effect on the general people.
     </div>
   </div>
 
@@ -513,8 +540,8 @@ Tech and work  A new project started.
     <div class="summary-description">
       Hugo is fast and just works. However there are certain things you must take into consideration while hosting it.
 Till now one thing I came across is the path for css files. Hugo provides template short codes to deal with them.
- The templating system cares for empty spaces in the template.
- You should be extra careful not to put them. For example href=&quot;{{ .Site.BaseURL }}css/2021.css&quot; and href=&quot;{{ .Site.BaseURL }} css/2021.
+The templating system cares for empty spaces in the template.
+You should be extra careful not to put them. For example href=&quot;{{ .Site.BaseURL }}css/2021.css&quot; and href=&quot;{{ .Site.BaseURL }} css/2021.css&quot; are different.
     </div>
   </div>
 

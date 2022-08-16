@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head>
-	<meta name="generator" content="Hugo 0.92.1" />
+	<meta name="generator" content="Hugo 0.101.0" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -27,6 +27,32 @@
           <div class="summary-point">
 
   <div class="summary-topic-point">
+    <div class="txt-big-1">16</div>
+    <div>Aug, 2022</div>
+    <div class="txt-sm-1">1 Minutes</div>
+  </div>
+
+  <div class="">
+    <a href="https://saumya.github.io/2021/posts/21/">
+      <div class="summary-title">
+        Working with YARN
+      </div>
+    </a>
+    <div class="summary-description">
+      Working in Yarn was a little involved. That is Yarn version 1. One has to play around with Node and NPM to make things setup. With Yarn version 2 and above, this is mostly done by Node and a new utility called corepack.
+Now, Yarn does not need to be installed as a global package. Yarn can be enabled for individual projects (individual folders).
+The corepack enable is all there is to it.
+    </div>
+  </div>
+
+
+
+</div>
+
+      
+          <div class="summary-point">
+
+  <div class="summary-topic-point">
     <div class="txt-big-1">29</div>
     <div>May, 2022</div>
     <div class="txt-sm-1">1 Minutes</div>
@@ -40,10 +66,10 @@
     </a>
     <div class="summary-description">
       Updating a state in React looks something like below.
-	const [count, setCount] = useState(0) setCount(5) Here the new value of the count is provided to setCount. That updates the state of count to its new value.
+const [count, setCount] = useState(0) setCount(5) Here the new value of the count is provided to setCount. That updates the state of count to its new value.
 This is the most used form of the state update.
 However, there is another form of this functionality. This looks like below.
-	setState( previousState=&gt;{ // Do Something with Previous Data // And return the newly created Data return( newState ) } ) So the code setCount(5) will become like below.
+setState( previousState=&gt;{ // Do Something with Previous Data // And return the newly created Data return( newState ) } ) So the code setCount(5) will become like below.
     </div>
   </div>
 
@@ -68,9 +94,9 @@ However, there is another form of this functionality. This looks like below.
     </a>
     <div class="summary-description">
       The game of React is in its components. Almost everything here is a component. Sooner or later the need to pass properties to components will arise. This is straight forward as we know like this.
-&lt;MyComp myTitle='Nice Component' /&gt; Inside component we can access this with props.myTitle.
+&lt;MyComp myTitle=&#39;Nice Component&#39; /&gt; Inside component we can access this with props.myTitle.
 const MyComp = (props)=&gt;{	return( &lt;div&gt; { props.myTitle } &lt;/div&gt; ) } This can also be written as below.
-const MyComp = ( {myTitle} )=&gt;{	return( &lt;div&gt; { myTitle } &lt;/div&gt; ) }  There is a nice magic props that React has, on all the components.
+const MyComp = ( {myTitle} )=&gt;{	return( &lt;div&gt; { myTitle } &lt;/div&gt; ) } There is a nice magic props that React has, on all the components.
     </div>
   </div>
 
@@ -95,8 +121,8 @@ const MyComp = ( {myTitle} )=&gt;{	return( &lt;div&gt; { myTitle } &lt;/div&gt; 
     </a>
     <div class="summary-description">
       React defines and speculates about how to manage code files for components. There are so many documentation and tools available as per the best practices and perfect scenaios. However as per my experience no perfect scenario ever worked for any individual or company.
- There is difference between perfect scenario and working scenario.
- While everyone should try to stick to the best practices and perfect scenarios, it is a perpetual job.
+There is difference between perfect scenario and working scenario.
+While everyone should try to stick to the best practices and perfect scenarios, it is a perpetual job. It never ends.
     </div>
   </div>
 
@@ -122,33 +148,6 @@ const MyComp = ( {myTitle} )=&gt;{	return( &lt;div&gt; { myTitle } &lt;/div&gt; 
     <div class="summary-description">
       My working machine is a Linux machine for some years now.
 I never felt this kind of freedom and productive before. Now I can say it is even better than MacOS in terms of developer freedom and easiness. It is better than Windows in terms of GUI applications. The time has gone when Linux used to be command only. Today the GUI applications are much better in Linux than Windows.
-    </div>
-  </div>
-
-
-
-</div>
-
-      
-          <div class="summary-point">
-
-  <div class="summary-topic-point">
-    <div class="txt-big-1">26</div>
-    <div>Feb, 2022</div>
-    <div class="txt-sm-1">1 Minutes</div>
-  </div>
-
-  <div class="">
-    <a href="https://saumya.github.io/2021/posts/16/">
-      <div class="summary-title">
-        SVG on Web
-      </div>
-    </a>
-    <div class="summary-description">
-      SVG is fine jsut to know it as an image format.
-However, to deal with SVG on a web application as a developer is a different thing. SVG is too generic for better or worse as Javascript. Unless you know your way through it, it might seem confusing or easy.
-First is there are many ways to include SVG in web.
-The basic is just the tag itself. It is a valid HTML tag.
     </div>
   </div>
 

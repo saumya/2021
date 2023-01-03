@@ -6,7 +6,17 @@
     <description>Recent content on Saumya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Aug 2022 10:59:17 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Jan 2023 20:30:19 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Product or Technology</title>
+      <link>https://saumya.github.io/2021/posts/22/</link>
+      <pubDate>Tue, 03 Jan 2023 20:30:19 +0530</pubDate>
+      
+      <guid>https://saumya.github.io/2021/posts/22/</guid>
+      <description>This is always the case. It is always OR never AND.
+There are talks about how technology is the key to a successful product. May be it is true in the beginning, till one has to maintain it. Almost all successful products in the market are not of the latest technolgy. There are some parts of it is new technology, but majority is old, very old. The technology they use are once new, but now it is old and that is ok.</description>
+    </item>
+    
     <item>
       <title>Working with YARN</title>
       <link>https://saumya.github.io/2021/posts/21/</link>

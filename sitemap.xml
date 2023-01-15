@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://saumya.github.io/2021/posts/</loc>
-    <lastmod>2023-01-03T20:30:19+05:30</lastmod>
+    <loc>https://saumya.github.io/2021/posts/23/</loc>
+    <lastmod>2023-01-15T12:43:58+05:30</lastmod>
   </url><url>
-    <loc>https://saumya.github.io/2021/posts/22/</loc>
-    <lastmod>2023-01-03T20:30:19+05:30</lastmod>
+    <loc>https://saumya.github.io/2021/posts/</loc>
+    <lastmod>2023-01-15T12:43:58+05:30</lastmod>
   </url><url>
     <loc>https://saumya.github.io/2021/</loc>
+    <lastmod>2023-01-15T12:43:58+05:30</lastmod>
+  </url><url>
+    <loc>https://saumya.github.io/2021/posts/22/</loc>
     <lastmod>2023-01-03T20:30:19+05:30</lastmod>
   </url><url>
     <loc>https://saumya.github.io/2021/posts/21/</loc>

@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Saumya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Jan 2023 15:10:01 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 May 2023 16:12:02 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu 23.04, something is missing.</title>
+      <link>https://saumya.github.io/2021/posts/25/</link>
+      <pubDate>Sun, 28 May 2023 16:12:02 +0530</pubDate>
+      
+      <guid>https://saumya.github.io/2021/posts/25/</guid>
+      <description>I updated my machine to Ubuntu 23.04.
+There are so many things which are just smoother to work with.
+The system itself, seems to be faster. I think this is because Snaps just start instantly! I did not believe this for the fist time! This one is the best thing to happen in my opinion. I have tried opening everything that should take sometime to open, but no the just open instantly.</description>
+    </item>
+    
     <item>
       <title>Do it and see</title>
       <link>https://saumya.github.io/2021/posts/24/</link>

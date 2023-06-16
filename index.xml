@@ -6,7 +6,18 @@
     <description>Recent content on Saumya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 May 2023 16:12:02 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Jun 2023 12:29:43 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu 23.04 fixed with an update</title>
+      <link>https://saumya.github.io/2021/posts/26/</link>
+      <pubDate>Fri, 16 Jun 2023 12:29:43 +0530</pubDate>
+      
+      <guid>https://saumya.github.io/2021/posts/26/</guid>
+      <description>In my last post I talked about the problem with Ubuntu 23.04.
+While my laptop was workable but not optimal. I could not controll the brightness of the screen. I was hoping Ubuntu will fix this with an update. And that is what has happened.
+sudo apt update sudo apt upgrade Those two are not new to any Ubuntu user. But with these two, Ubuntu got the fix for the brightness control problem.</description>
+    </item>
+    
     <item>
       <title>Ubuntu 23.04, something is missing.</title>
       <link>https://saumya.github.io/2021/posts/25/</link>

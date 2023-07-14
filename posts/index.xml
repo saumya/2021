@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Saumya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Jul 2023 11:57:00 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Jul 2023 12:16:03 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Removing Yarn 2.x</title>
+      <link>https://saumya.github.io/2021/posts/28/</link>
+      <pubDate>Fri, 14 Jul 2023 12:16:03 +0530</pubDate>
+      
+      <guid>https://saumya.github.io/2021/posts/28/</guid>
+      <description>This is addition to the last two posts regarding Yarn.
+Setting different Yarn versions in Ubuntu / Linux Working with YARN Now after working with it for more than 2 years, it feels that Yarn 1 is more useful. Though, technically Yarn 2 has all the best intentions and implementations, there are situations where Yarn 1 just works.
+How to remove Yarn 2 completely from Ubuntu I am using NVM for managing different NodeJS versions.</description>
+    </item>
+    
     <item>
       <title>Second Product is online.</title>
       <link>https://saumya.github.io/2021/posts/27/</link>

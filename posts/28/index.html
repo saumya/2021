@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="stylesheet" href="https://saumya.github.io/2021/css/2021.css">
+
+  <title>
+    Saumya
+  </title>
+
+</head>
+<body>
+      <section class="section-main"><div class="header-info">
+
+</div>
+<div id="content">
+<section>
+  <div class="title-single">
+    <h1>Removing Yarn 2.x</h1>
+    <h2>14 Jul, 2023</h2>
+    <h4>2 Mins Read</h4>
+  </div>
+  <div>
+    <article>
+      <p>This is addition to the last two posts regarding <a href="https://yarnpkg.com/">Yarn</a>.</p>
+<ul>
+<li><a href="../12">Setting different Yarn versions in Ubuntu / Linux</a></li>
+<li><a href="../21">Working with YARN</a></li>
+</ul>
+<p>Now after working with it for more than 2 years, it feels that <a href="https://classic.yarnpkg.com/">Yarn 1</a> is more useful. Though, technically <a href="https://yarnpkg.com/">Yarn 2</a> has all the best intentions and implementations, there are situations where <a href="https://classic.yarnpkg.com/">Yarn 1</a> just works.</p>
+<h3 id="how-to-remove-yarn-2yarn-completely-from-ubuntu">How to remove <a href="https://yarnpkg.com/">Yarn 2</a> completely from Ubuntu</h3>
+<p>I am using <a href="https://github.com/nvm-sh/nvm">NVM</a> for managing different <a href="https://nodejs.org/en">NodeJS</a> versions. So the removing of some files and folders may be different in terms of their <code>path</code>. However overall it will be the same process if one has installed <a href="https://yarnpkg.com/">Yarn</a> on a standalone <a href="https://nodejs.org/en">NodeJS</a> installation.</p>
+<p>If you have gone through <a href="../12">this post</a>, I have shown the standard removing process of <a href="https://yarnpkg.com/">Yarn</a>. However this post is an addition to that, showing the extra files and folders, one might be having in the machine.</p>
+<ol>
+<li>
+<p>Remove these files from the folder at <code>~/.nvm/versions/node/v16.20.1/lib/node_modules/corepack/dist/</code></p>
+<ul>
+<li>yarn.js</li>
+<li>yarnpkg.js</li>
+</ul>
+</li>
+<li>
+<p>Remove these files from the folder at <code>~/.nvm/versions/node/v16.20.1/bin/</code></p>
+<ul>
+<li>yarn</li>
+<li>yarnpkg</li>
+</ul>
+</li>
+</ol>
+<p>In this case I am using <code>Node 16.20.1</code>, so the folder <code>path</code> has got that. Depending upon your version of NodeJS, the path will be like that.</p>
+<blockquote>
+<p>Just to be sure, remove any Yarn related files and folders from the working folder of your code. Which might have generated when migrating to <a href="https://yarnpkg.com/">Yarn 2</a> from <a href="https://classic.yarnpkg.com/">Yarn 1</a>.</p>
+</blockquote>
+<p>That is all. Next is install <a href="https://classic.yarnpkg.com/">Yarn 1</a> with</p>
+<pre tabindex="0"><code>npm -g install yarn
+</code></pre><p>Happy coding.</p>
+
+    </article>
+  </div>
+</section>
+<aside>
+  <div>
+    <section class="single-footer-info">
+      <h4>Fri Jul 14, 2023</h4>
+      <h4>2 Mins Read</h4>
+      <h4>238 Words</h4>
+    </section>
+  </div>
+  <div class="single-footer">
+    <div class="">
+      
+      <a class="previous" href="https://saumya.github.io/2021/posts/27/"> Second Product is online.</a>
+      
+    </div>
+    <div class="">
+      
+    </div>
+  </div>
+</aside>
+
+
+        
+
+        </div><footer>
+
+  <nav>
+    <div>
+      <a href="/">
+        Saumya
+      </a>
+    </div>
+
+    <div>
+      <a href="https://saumya.github.io/2021/">
+        Home
+      </a>
+    </div>
+    <div>
+      <a href="https://saumya.github.io/2021/posts">
+        Posts
+      </a>
+    </div>
+    <div>
+      <a href="https://saumya.github.io/2021/index.xml">
+        RSS
+      </a>
+    </div>
+  </nav>
+
+  <div class="footer-intro">
+    <div class="footer-intro-description">
+      <strong>Saumya</strong> is an iternal seeker. A maker of things and curious about everything. Continuous learning is, what fuels him. This blog itself, reflects one of many things he is trying at all the time. 
+    </div>
+    <div class="footer-rights">
+      Saumya | 2023 | No rights reserved.
+    </div>
+  </div>
+
+
+</footer>
+</section>
+    </body>
+</html>

@@ -6,7 +6,18 @@
     <description>Recent content on Saumya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Jul 2023 12:16:03 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Jul 2023 15:31:37 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zig</title>
+      <link>https://saumya.github.io/2021/posts/29/</link>
+      <pubDate>Sun, 30 Jul 2023 15:31:37 +0530</pubDate>
+      
+      <guid>https://saumya.github.io/2021/posts/29/</guid>
+      <description>For sometime now, I was searching for an alternative for Go. While the language itself is nice and I am productive with it, there are reasons to look elsewhere.
+Now stared with Zig.
+While working with Go, I thought there could not be simpler thing than this. Installation is smooth, works on every platform and fast. Infact this blog runs on Hugo, which runs on Go. But lately there are data mining and other corporate politics is happening in that space.</description>
+    </item>
+    
     <item>
       <title>Removing Yarn 2.x</title>
       <link>https://saumya.github.io/2021/posts/28/</link>

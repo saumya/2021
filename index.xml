@@ -6,7 +6,22 @@
     <description>Recent content on Saumya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Dec 2023 17:08:24 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Jan 2024 13:01:18 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using a tool</title>
+      <link>https://saumya.github.io/2021/posts/32/</link>
+      <pubDate>Thu, 25 Jan 2024 13:01:18 +0530</pubDate>
+      
+      <guid>https://saumya.github.io/2021/posts/32/</guid>
+      <description>Is it a library or a framework?!
+ Do not know, but everyone is using it.
+ Must be good.
+ Hype Driven Development.
+ It should be a known story for experienced developers. For new developers it is alright to start here.
+ The problem is never the tool itself. How it is been used, the implementation details. That is the place, where it matters.
+ During the last days of FlashPlayer, the company and the community both jumped into Flex, the framework and the tool-chain to say, everything can be fixed with it!</description>
+    </item>
+    
     <item>
       <title>Secure boot. Installing Linux on a Windows machine.</title>
       <link>https://saumya.github.io/2021/posts/31/</link>

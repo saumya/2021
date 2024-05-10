@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="stylesheet" href="https://saumya.github.io/2021/css/2021.css">
+
+  <title>
+    Saumya
+  </title>
+
+</head>
+<body>
+      <section class="section-main"><div class="header-info">
+
+</div>
+<div id="content">
+<section>
+  <div class="title-single">
+    <h1>VIM to NeoVIM</h1>
+    <h2>10 May, 2024</h2>
+    <h4>2 Mins Read</h4>
+  </div>
+  <div>
+    <article>
+      <p>I never thought, the day will come! The story of <a href="https://www.vim.org/">VIM</a> addiction and <a href="https://neovim.io/">NeoVIM</a> <a href="#neovim-and-ubuntu">adoption</a>.</p>
+<p>In search of a code editor which is available everywhere, from Desktop to servers, I accidentally got used to <code>vi</code> some years back. I had to edit some files on the server or they call it <code>Cloud</code>, the only editor available there was <code>vi</code>. I just used it and forgot it as it was not even close to anything that modern code editors offer.</p>
+<p>The thing came back to me, when I switch to <code>Ubuntu</code> as my daily work machine. Well still I do a lot with <a href="https://www.sublimetext.com/"><code>Sublime Text</code></a> but this <a href="https://www.vim.org/">vi</a> is just there. Before I knew, I started using it now and then.</p>
+<p>I did not need a lot of plug-ins, just the text editor is enough for me for occasional editing. Slowly as I started using it more frequently, the only plugin I needed was a file tree. So the <code>NERDTree</code> is perfect for me till date.</p>
+<p>Now there is <a href="https://neovim.io/">NeoVIM</a>, which is just <a href="https://www.vim.org/">VIM</a> on the frontend. Which means for a <a href="https://www.vim.org/">VIM</a> user there is no difference but the underlying development is changed completely. I resisted for 2 years but once I configured and used it, it seems just natural to be with it.</p>
+<h3 id="neovim-and-ubuntu">NeoVIM and Ubuntu</h3>
+<p>Like other things in Ubuntu, just download the binary bundle, extract into a folder, set the path in <code>~/.bashrc</code> and ready to go with <a href="https://neovim.io/"><code>NeoVIM</code></a>. Instead of <code>vi</code> one has to use <code>nvim</code> on commandline.</p>
+<ul>
+<li>Can be configured through <code>init.vim</code> or <code>init.lua</code> file. Not both at the same time.</li>
+<li>Location of these files are in <code>$HOME/.config/nvim/</code></li>
+<li>This <code>nvim</code> folder have to be created manually</li>
+<li>Plug-ins are just github repositories. Just download and place it in <code>pack</code> folder inside <code>$HOME/.config/nvim/</code> folder. Then add a <code>require</code> satement on the <code>config</code> file.</li>
+</ul>
+<pre><code> require('lualine').setup()
+</code></pre><ul>
+<li>There are plugin managers and there are choices there also. However, for me this github repo download works fine.</li>
+<li>Here is a video explaining <a href="%5Bhttps://www.youtube.com/watch?v=m8C0Cq9Uv9o%5D">NeoVIM configuration</a></li>
+</ul>
+
+    </article>
+  </div>
+</section>
+<aside>
+  <div>
+    <section class="single-footer-info">
+      <h4>Fri May 10, 2024</h4>
+      <h4>2 Mins Read</h4>
+      <h4>332 Words</h4>
+    </section>
+  </div>
+  <div class="single-footer">
+    <div class="">
+      
+      <a class="previous" href="https://saumya.github.io/2021/posts/32/"> Using a tool</a>
+      
+    </div>
+    <div class="">
+      
+    </div>
+  </div>
+</aside>
+
+
+        
+
+        </div><footer>
+
+  <nav>
+    <div>
+      <a href="/">
+        Saumya
+      </a>
+    </div>
+
+    <div>
+      <a href="https://saumya.github.io/2021/">
+        Home
+      </a>
+    </div>
+    <div>
+      <a href="https://saumya.github.io/2021/posts">
+        Posts
+      </a>
+    </div>
+    <div>
+      <a href="https://saumya.github.io/2021/index.xml">
+        RSS
+      </a>
+    </div>
+  </nav>
+
+  <div class="footer-intro">
+    <div class="footer-intro-description">
+      <strong>Saumya</strong> is an iternal seeker. A maker of things and curious about everything. Continuous learning is, what fuels him. This blog itself, reflects one of many things he is trying at all the time. 
+    </div>
+    <div class="footer-rights">
+      Saumya | 2024 | No rights reserved.
+    </div>
+  </div>
+
+
+</footer>
+</section>
+    </body>
+</html>

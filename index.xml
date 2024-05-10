@@ -6,7 +6,17 @@
     <description>Recent content on Saumya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jan 2024 13:01:18 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 May 2024 15:48:12 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VIM to NeoVIM</title>
+      <link>https://saumya.github.io/2021/posts/33/</link>
+      <pubDate>Fri, 10 May 2024 15:48:12 +0530</pubDate>
+      
+      <guid>https://saumya.github.io/2021/posts/33/</guid>
+      <description>I never thought, the day will come! The story of VIM addiction and NeoVIM adoption.
+In search of a code editor which is available everywhere, from Desktop to servers, I accidentally got used to vi some years back. I had to edit some files on the server or they call it Cloud, the only editor available there was vi. I just used it and forgot it as it was not even close to anything that modern code editors offer.</description>
+    </item>
+    
     <item>
       <title>Using a tool</title>
       <link>https://saumya.github.io/2021/posts/32/</link>

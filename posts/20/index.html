@@ -25,18 +25,18 @@
   <div>
     <article>
       <p>Updating a state in <a href="https://reactjs.org/">React</a> looks something like below.</p>
-<pre><code>	const [count, setCount] = useState(0)
+<pre tabindex="0"><code>	const [count, setCount] = useState(0)
 	setCount(5)
 </code></pre><p>Here the new value of the <code>count</code> is provided to <code>setCount</code>. That updates the <code>state</code> of <code>count</code> to its new value.</p>
 <p>This is the most used form of the <code>state</code> update.</p>
 <p>However, there is another form of this functionality. This looks like below.</p>
-<pre><code>	setState( previousState=&gt;{
+<pre tabindex="0"><code>	setState( previousState=&gt;{
 		// Do Something with Previous Data
 		// And return the newly created Data
 		return( newState )
 		} )
 </code></pre><p>So the code <code>setCount(5)</code> will become like below.</p>
-<pre><code>	setCount( previousCount =&gt; { return(5) } )
+<pre tabindex="0"><code>	setCount( previousCount =&gt; { return(5) } )
 </code></pre><p>This is a most useful utility once you fall into a place where you need it.</p>
 <p>Happy Coding.</p>
 

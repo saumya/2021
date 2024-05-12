@@ -18,18 +18,27 @@
 <div id="content">
 <section>
   <div class="title-single">
-    <h1>Ubuntu 23.04 fixed with an update</h1>
-    <h2>16 Jun, 2023</h2>
+    <h1>NeoVIM Configuration basics</h1>
+    <h2>12 May, 2024</h2>
     <h4>1 Mins Read</h4>
   </div>
   <div>
     <article>
-      <p>In my last post I talked about the problem with Ubuntu 23.04.</p>
-<p>While my laptop was workable but not optimal. I could not controll the brightness of the screen. I was hoping Ubuntu will fix this with an update. And that is what has happened.</p>
-<pre tabindex="0"><code>sudo apt update
-sudo apt upgrade
-</code></pre><p>Those two are not new to any Ubuntu user. But with these two, Ubuntu got the fix for the brightness control problem. There might be other fixes too. For me, I got the things I was waiting for.</p>
-<p>Back to work :)</p>
+      <p>Configuring NeoVIM is straight forward. All one need to know where to put what.</p>
+<p>This is a <a href="https://martinlwx.github.io/en/config-neovim-from-scratch/">nice read</a> to get started with it.</p>
+<p>For me, it was not difficult as I just needed a decent text editor with a file tree. All I did is pull the respective github repos into the folder and call them from <code>init,lua</code>. This is nice and fine but since the configuration is too easy and <code>Lua</code> just feels good to play with, thinking of confuguring it further and play with plugin managers.</p>
+<pre tabindex="0"><code>nvim
+├── init.lua
+└── lua
+    ├── colorscheme.lua
+    ├── config
+    │   └── nvim-cmp.lua
+    ├── keymaps.lua
+    ├── lsp.lua
+    ├── options.lua
+    └── plugins.lua
+</code></pre><p>This is the basic structure of the configuration.</p>
+<p>I think my transition from Vim to NeoVim is over and I am here to stay for some time.</p>
 
     </article>
   </div>
@@ -37,20 +46,18 @@ sudo apt upgrade
 <aside>
   <div>
     <section class="single-footer-info">
-      <h4>Fri Jun 16, 2023</h4>
+      <h4>Sun May 12, 2024</h4>
       <h4>1 Mins Read</h4>
-      <h4>93 Words</h4>
+      <h4>136 Words</h4>
     </section>
   </div>
   <div class="single-footer">
     <div class="">
       
-      <a class="previous" href="https://saumya.github.io/2021/posts/25/"> Ubuntu 23.04, something is missing.</a>
+      <a class="previous" href="https://saumya.github.io/2021/posts/33/"> VIM to NeoVIM</a>
       
     </div>
     <div class="">
-      
-      <a class="next" href="https://saumya.github.io/2021/posts/27/"> Second Product is online.</a>
       
     </div>
   </div>

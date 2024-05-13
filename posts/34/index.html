@@ -24,10 +24,10 @@
   </div>
   <div>
     <article>
-      <p>Configuring NeoVIM is straight forward. All one need to know where to put what.</p>
-<p>This is a <a href="https://martinlwx.github.io/en/config-neovim-from-scratch/">nice read</a> to get started with it.</p>
+      <p>Configuring NeoVIM is straight forward. All one need to know is, where to put what.</p>
+<p>Here is a <a href="#reference-readings">list of references</a> to get started with it.</p>
 <p>For me, it was not difficult as I just needed a decent text editor with a file tree. All I did is pull the respective github repos into the folder and call them from <code>init,lua</code>. This is nice and fine but since the configuration is too easy and <code>Lua</code> just feels good to play with, thinking of confuguring it further and play with plugin managers.</p>
-<pre tabindex="0"><code>nvim
+<pre><code>nvim
 ├── init.lua
 └── lua
     ├── colorscheme.lua
@@ -37,8 +37,35 @@
     ├── lsp.lua
     ├── options.lua
     └── plugins.lua
-</code></pre><p>This is the basic structure of the configuration.</p>
-<p>I think my transition from Vim to NeoVim is over and I am here to stay for some time.</p>
+</code></pre><p>The above is the basic structure of the configuration.</p>
+<p>Below is the total structure of the configuration that I have.</p>
+<pre><code>    nvim
+    ├── init.lua
+    ├── pack
+    │    └── my-plugins
+    │        ├── start
+    │        │    ├── plugin-a
+    │        │    └── plugin-b
+    │        └── opt
+    │            ├── plugin-one
+    │            └── plugin-two   
+    │
+    └── lua
+        ├── colorscheme.lua
+        ├── config
+        │   └── nvim-cmp.lua
+        ├── keymaps.lua
+        ├── lsp.lua
+        ├── options.lua
+        └── plugins.lua
+</code></pre><p>I think my transition from Vim to NeoVim is complete.</p>
+<h3 id="reference-readings">Reference readings</h3>
+<ul>
+<li><a href="https://vonheikemen.github.io/devlog/tools/neovim-plugins-to-get-started/">Neovim plugins to get started</a></li>
+<li><a href="https://medium.com/@finnala/a-beginners-guide-to-neovim-configuration-9e7dac182de5">Beginner&rsquo;s guide to Neovim configuration</a></li>
+<li><a href="https://medium.com/@finnala/an-introduction-to-neovim-plugins-and-plugin-managers-95782ed194f7">Neovim plugins and plugin managers</a></li>
+<li><a href="https://martinlwx.github.io/en/config-neovim-from-scratch/">Config Neovim from scratch</a></li>
+</ul>
 
     </article>
   </div>
@@ -48,7 +75,7 @@
     <section class="single-footer-info">
       <h4>Sun May 12, 2024</h4>
       <h4>1 Mins Read</h4>
-      <h4>136 Words</h4>
+      <h4>208 Words</h4>
     </section>
   </div>
   <div class="single-footer">

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="stylesheet" href="https://saumya.github.io/2021/css/2021.css">
+
+  <title>
+    Saumya
+  </title>
+
+</head>
+<body>
+      <section class="section-main"><div class="header-info">
+
+</div>
+<div id="content">
+<section>
+  <div class="title-single">
+    <h1>NeoVIM on Windows</h1>
+    <h2>18 May, 2024</h2>
+    <h4>2 Mins Read</h4>
+  </div>
+  <div>
+    <article>
+      <p>We will be talking about Windows 11 and NeoVIM. It can be seen as general Windows not specific to Windows 11, since I have done it in Windows 11, thought would mention it here in order to avoid the confusion.</p>
+<p>On Windows machines I avoided configuring or even using NeoVIM. Thought it would be much more painful here as compared to Linux. So started using NeoVIM on WSL. Configured and ready within a couple of minutes as that is basically all Linux. Then I thought, let me try on Windows once and that would be final. If it runs fine if not better. It seemed the people at NeoVIM has made it clear that this thing is for everyone, including Windows people.</p>
+<blockquote>
+<p>Download the binary. Extract it into a folder. Set that folder path in Windows <code>Environment Path</code>. Start using <code>nvim</code> from commandline.</p>
+</blockquote>
+<p>Never thought, it would be this simple! This is a nice read for <a href="https://blog.nikfp.com/how-to-install-and-set-up-neovim-on-windows">NeoVIM on Windows</a>.</p>
+<h2 id="configuration">Configuration</h2>
+<p>The <code>nvim</code> folder that <a href="../34">we talked</a> in last post for Linux is available at</p>
+<pre><code>C:\Users\{WindowsLoginName}\AppData\Local\nvim
+</code></pre><p>for Windows. Once this folder is known, everything else regarding the configuration of <code>nvim</code> <a href="../34">is just same</a> as in Linux.</p>
+<p>Clone the plugins into the respective folder and call them from <code>init.lua</code>. Windows is ready with NeoVIM.</p>
+<h3 id="references-and-notes">References and Notes</h3>
+<ul>
+<li><a href="https://neoland.dev/">Neo Land</a></li>
+<li><a href="https://blog.nikfp.com/how-to-install-and-set-up-neovim-on-windows">Config NeoVIM on Windows</a></li>
+<li>As with Linux, in Windows also <a href="https://github.com/nvim-neo-tree/neo-tree.nvim">Neotree</a> plugin depends upon <a href="https://github.com/nvim-lua/plenary.nvim">Plenary</a> and <a href="https://github.com/MunifTanjim/nui.nvim">nui</a> plugins. So these two plugins also need to be cloned to the plugins folder.</li>
+</ul>
+
+    </article>
+  </div>
+</section>
+<aside>
+  <div>
+    <section class="single-footer-info">
+      <h4>Sat May 18, 2024</h4>
+      <h4>2 Mins Read</h4>
+      <h4>248 Words</h4>
+    </section>
+  </div>
+  <div class="single-footer">
+    <div class="">
+      
+      <a class="previous" href="https://saumya.github.io/2021/posts/34/"> NeoVIM Configuration basics</a>
+      
+    </div>
+    <div class="">
+      
+    </div>
+  </div>
+</aside>
+
+
+        
+
+        </div><footer>
+
+  <nav>
+    <div>
+      <a href="/">
+        Saumya
+      </a>
+    </div>
+
+    <div>
+      <a href="https://saumya.github.io/2021/">
+        Home
+      </a>
+    </div>
+    <div>
+      <a href="https://saumya.github.io/2021/posts">
+        Posts
+      </a>
+    </div>
+    <div>
+      <a href="https://saumya.github.io/2021/index.xml">
+        RSS
+      </a>
+    </div>
+  </nav>
+
+  <div class="footer-intro">
+    <div class="footer-intro-description">
+      <strong>Saumya</strong> is an iternal seeker. A maker of things and curious about everything. Continuous learning is, what fuels him. This blog itself, reflects one of many things he is trying at all the time. 
+    </div>
+    <div class="footer-rights">
+      Saumya | 2024 | No rights reserved.
+    </div>
+  </div>
+
+
+</footer>
+</section>
+    </body>
+</html>

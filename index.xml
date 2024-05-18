@@ -6,7 +6,17 @@
     <description>Recent content on Saumya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 May 2024 16:08:48 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 May 2024 14:01:52 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NeoVIM on Windows</title>
+      <link>https://saumya.github.io/2021/posts/35/</link>
+      <pubDate>Sat, 18 May 2024 14:01:52 +0530</pubDate>
+      
+      <guid>https://saumya.github.io/2021/posts/35/</guid>
+      <description>We will be talking about Windows 11 and NeoVIM. It can be seen as general Windows not specific to Windows 11, since I have done it in Windows 11, thought would mention it here in order to avoid the confusion.
+On Windows machines I avoided configuring or even using NeoVIM. Thought it would be much more painful here as compared to Linux. So started using NeoVIM on WSL. Configured and ready within a couple of minutes as that is basically all Linux.</description>
+    </item>
+    
     <item>
       <title>NeoVIM Configuration basics</title>
       <link>https://saumya.github.io/2021/posts/34/</link>

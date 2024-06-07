@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Saumya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 May 2024 14:01:52 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Jun 2024 15:23:23 +0530</lastBuildDate><atom:link href="https://saumya.github.io/2021/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NPM script basics</title>
+      <link>https://saumya.github.io/2021/posts/36/</link>
+      <pubDate>Fri, 07 Jun 2024 15:23:23 +0530</pubDate>
+      
+      <guid>https://saumya.github.io/2021/posts/36/</guid>
+      <description>In package.json there is a script section. From here one can run NPM Scripts.
+&amp;quot;scripts&amp;quot;: {&amp;quot;one&amp;quot;: &amp;quot;scriptOne.js&amp;quot;,&amp;quot;two&amp;quot;: &amp;quot;scriptTwo.js&amp;quot;}These can be run like this.
+npm run oneThis particular line will run scriptOne.js. This is powerful as we could take Node&amp;rsquo;s power and run any automated task for ourselves.
+At first this seemed simple to me. Soon I came across cross-platform bugs. Since we are writing this in JS, it could be run anywhere Node is available.</description>
+    </item>
+    
     <item>
       <title>NeoVIM on Windows</title>
       <link>https://saumya.github.io/2021/posts/35/</link>

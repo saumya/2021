@@ -18,18 +18,21 @@
 <div id="content">
 <section>
   <div class="title-single">
-    <h1>Ubuntu 24.04 is with an unstable installer</h1>
-    <h2>23 Jan, 2025</h2>
+    <h1>Ubuntu 24.04 and internet access</h1>
+    <h2>9 Feb, 2025</h2>
     <h4>1 Mins Read</h4>
   </div>
   <div>
     <article>
-      <p>The latest LTS release of Ubuntu, 24.04 is having a very unstable installer.</p>
+      <p>Seems like a known bug.</p>
 <blockquote>
-<p>I could install it from the installer in some machines without any problem.</p></blockquote>
-<p>However, the installer simply is a UI only update. On the UX side it fails completely. Seems there is no error handling done. On simplest of things, the installer just shuts down.</p>
-<p>On one of my laptops, I find it is very difficult to go forword with installation. Made an attempt to install the previous version of Ubuntu, which is 22.04 and it went smooth.</p>
-<p>I hope the new installer has a lot to be fixed, behind the nice UI. In that case, it will be usable else install 22.04 and then update it from inside the Operating System.</p>
+<p>Upgrade from 22.04 LTS to 24.04 LTS and the connection to internet is broken</p></blockquote>
+<p>In my case, I upgraded to 24.04.1. The bug still is there. The fix I do is from <a href="https://askubuntu.com/a/1530964">this place</a>. I have to do it almost every time I open the OS.</p>
+<pre tabindex="0"><code>sudo rm /etc/resolv.conf
+sudo dhcpcd
+</code></pre><p>Now as <a href="https://askubuntu.com/a/1530964">mentioned in the post</a> internet is back but the icon on the taskbar is still broken. To fix this UI, this is the command.</p>
+<pre tabindex="0"><code>sudo apt install systemd-resolved
+</code></pre><p>However, this last command is not always needed. The two commands does the job.</p>
 
     </article>
   </div>
@@ -37,20 +40,18 @@
 <aside>
   <div>
     <section class="single-footer-info">
-      <h4>Thu Jan 23, 2025</h4>
+      <h4>Sun Feb 9, 2025</h4>
       <h4>1 Mins Read</h4>
-      <h4>125 Words</h4>
+      <h4>100 Words</h4>
     </section>
   </div>
   <div class="single-footer">
     <div class="">
       
-      <a class="previous" href="https://saumya.github.io/2021/posts/37/"> React Native, 2025.</a>
+      <a class="previous" href="https://saumya.github.io/2021/posts/38/"> Ubuntu 24.04 is with an unstable installer</a>
       
     </div>
     <div class="">
-      
-      <a class="next" href="https://saumya.github.io/2021/posts/39/"> Ubuntu 24.04 and internet access</a>
       
     </div>
   </div>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head>
-	<meta name="generator" content="Hugo 0.127.0">
+	<meta name="generator" content="Hugo 0.143.1">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -27,6 +27,36 @@
           <div class="summary-point">
 
   <div class="summary-topic-point">
+    <div class="txt-big-1">9</div>
+    <div>Feb, 2025</div>
+    <div class="txt-sm-1">1 Minutes</div>
+  </div>
+
+  <div class="">
+    <a href="https://saumya.github.io/2021/posts/39/">
+      <div class="summary-title">
+        Ubuntu 24.04 and internet access
+      </div>
+    </a>
+    <div class="summary-description">
+      <p>Seems like a known bug.</p>
+<blockquote>
+<p>Upgrade from 22.04 LTS to 24.04 LTS and the connection to internet is broken</p></blockquote>
+<p>In my case, I upgraded to 24.04.1. The bug still is there. The fix I do is from <a href="https://askubuntu.com/a/1530964">this place</a>. I have to do it almost every time I open the OS.</p>
+<pre tabindex="0"><code>sudo rm /etc/resolv.conf
+sudo dhcpcd
+</code></pre><p>Now as <a href="https://askubuntu.com/a/1530964">mentioned in the post</a> internet is back but the icon on the taskbar is still broken. To fix this UI, this is the command.</p>
+    </div>
+  </div>
+
+
+
+</div>
+
+      
+          <div class="summary-point">
+
+  <div class="summary-topic-point">
     <div class="txt-big-1">23</div>
     <div>Jan, 2025</div>
     <div class="txt-sm-1">1 Minutes</div>
@@ -39,10 +69,11 @@
       </div>
     </a>
     <div class="summary-description">
-      The latest LTS release of Ubuntu, 24.04 is having a very unstable installer.
-I could install it from the installer in some machines without any problem.
-However, the installer simply is a UI only update. On the UX side it fails completely. Seems there is no error handling done. On simplest of things, the installer just shuts down.
-On one of my laptops, I find it is very difficult to go forword with installation.
+      <p>The latest LTS release of Ubuntu, 24.04 is having a very unstable installer.</p>
+<blockquote>
+<p>I could install it from the installer in some machines without any problem.</p></blockquote>
+<p>However, the installer simply is a UI only update. On the UX side it fails completely. Seems there is no error handling done. On simplest of things, the installer just shuts down.</p>
+<p>On one of my laptops, I find it is very difficult to go forword with installation. Made an attempt to install the previous version of Ubuntu, which is 22.04 and it went smooth.</p>
     </div>
   </div>
 
@@ -66,10 +97,12 @@ On one of my laptops, I find it is very difficult to go forword with installatio
       </div>
     </a>
     <div class="summary-description">
-      React Native still is and better than ever the toolchain for crossplatform application development. As usual the new version React Native toolchain keeps on changing. The documentation of the toolchain also keeps on changing(they call it evolving, not me).
-Starting a new project is now done as this
-npx @react-native-community/cli init MyNewReactNativeApp For a particular version of React Native, the command is like this.
-npx @react-native-community/cli init MyApp --version &#34;0.75&#34; This is basically using the community cli
+      <p><a href="https://reactnative.dev/">React Native</a> still is and better than ever the toolchain for crossplatform application development. As usual the new version React Native toolchain keeps on changing. The documentation of the toolchain also keeps on changing(<del>they call it evolving</del>, not me).</p>
+<p>Starting a new project is now done as this</p>
+<pre tabindex="0"><code>npx @react-native-community/cli init MyNewReactNativeApp
+</code></pre><p>For a particular version of React Native, the command is like this.</p>
+<pre tabindex="0"><code>npx @react-native-community/cli init MyApp --version &#34;0.75&#34;
+</code></pre><p>This is basically using the <a href="https://github.com/react-native-community/cli">community cli</a></p>
     </div>
   </div>
 
@@ -93,10 +126,15 @@ npx @react-native-community/cli init MyApp --version &#34;0.75&#34; This is basi
       </div>
     </a>
     <div class="summary-description">
-      In package.json there is a script section. From here one can run NPM Scripts.
-&#34;scripts&#34;: {&#34;one&#34;: &#34;scriptOne.js&#34;,&#34;two&#34;: &#34;scriptTwo.js&#34;} These can be run like this.
-npm run one This particular line will run scriptOne.js. This is powerful as we could take Node&rsquo;s power and run any automated task for ourselves.
-At first this seemed simple to me. Soon I came across cross-platform bugs. Since we are writing this in JS, it could be run anywhere Node is available.
+      <p>In <code>package.json</code> there is a <code>script</code> section. From here one can run NPM Scripts.</p>
+<pre tabindex="0"><code>&#34;scripts&#34;: {
+	&#34;one&#34;: &#34;scriptOne.js&#34;,
+	&#34;two&#34;: &#34;scriptTwo.js&#34;
+}
+</code></pre><p>These can be run like this.</p>
+<pre tabindex="0"><code>npm run one
+</code></pre><p>This particular line will run <code>scriptOne.js</code>. This is powerful as we could take Node&rsquo;s power and run any automated task for ourselves.</p>
+<p>At first this seemed simple to me. Soon I came across cross-platform bugs. Since we are writing this in <code>JS</code>, it could be run anywhere <code>Node</code> is available. Now that could be a tricky thing. Some environments deal with certain things in a certain way. This is not a big thing if the script is written to handle those situations. Another thing is <code>Node</code> versions. If the script is written using certain API of a particular <code>Node</code> version, it is better to keep an eye on new releases of Node and update the script if there are breaking changes.</p>
     </div>
   </div>
 
@@ -120,34 +158,8 @@ At first this seemed simple to me. Soon I came across cross-platform bugs. Since
       </div>
     </a>
     <div class="summary-description">
-      We will be talking about Windows 11 and NeoVIM. It can be seen as general Windows not specific to Windows 11, since I have done it in Windows 11, thought would mention it here in order to avoid the confusion.
-On Windows machines I avoided configuring or even using NeoVIM. Thought it would be much more painful here as compared to Linux. So started using NeoVIM on WSL. Configured and ready within a couple of minutes as that is basically all Linux.
-    </div>
-  </div>
-
-
-
-</div>
-
-      
-          <div class="summary-point">
-
-  <div class="summary-topic-point">
-    <div class="txt-big-1">12</div>
-    <div>May, 2024</div>
-    <div class="txt-sm-1">1 Minutes</div>
-  </div>
-
-  <div class="">
-    <a href="https://saumya.github.io/2021/posts/34/">
-      <div class="summary-title">
-        NeoVIM Configuration basics
-      </div>
-    </a>
-    <div class="summary-description">
-      Configuring NeoVIM is straight forward. All one need to know is, where to put what.
-Here is a list of references to get started with it.
-For me, it was not difficult as I just needed a decent text editor with a file tree. All I did is pull the respective github repos into the folder and call them from init,lua. This is nice and fine but since the configuration is too easy and Lua just feels good to play with, thinking of confuguring it further and play with plugin managers.
+      <p>We will be talking about Windows 11 and NeoVIM. It can be seen as general Windows not specific to Windows 11, since I have done it in Windows 11, thought would mention it here in order to avoid the confusion.</p>
+<p>On Windows machines I avoided configuring or even using NeoVIM. Thought it would be much more painful here as compared to Linux. So started using NeoVIM on WSL. Configured and ready within a couple of minutes as that is basically all Linux. Then I thought, let me try on Windows once and that would be final. If it runs fine if not better. It seemed the people at NeoVIM has made it clear that this thing is for everyone, including Windows people.</p>
     </div>
   </div>
 

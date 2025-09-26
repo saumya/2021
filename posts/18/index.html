@@ -26,14 +26,17 @@
     <article>
       <p><a href="https://reactjs.org/">React</a> defines and speculates about how to manage code files for components. There are so many documentation and tools available as per the best practices and perfect scenaios. However as per my experience <code>no perfect scenario</code> ever worked for any individual or company.</p>
 <blockquote>
-<p>There is difference between perfect scenario and working scenario.</p></blockquote>
+<p>There is difference between perfect scenario and working scenario.</p>
+</blockquote>
 <p>While everyone should try to stick to the best practices and perfect scenarios, it is a perpetual job. It never ends. Cause may be anything, but it never gets complete. There exists a working scenario.</p>
 <p>In my experience the working scenario is always a better place to be. It might not be exactly as per the best practices or suggested docs, but it gets the job done nicely in time and have a long term favourable result.</p>
 <blockquote>
-<p>Managing the Component Code, should be as per the project.</p></blockquote>
+<p>Managing the Component Code, should be as per the project.</p>
+</blockquote>
 <p>Like everything else in software development, this one should also be as per the project. There should not be one size fits all solution. To start with, each <code>Component</code> should have its own file. Which is good, but soon the project has thousands of files and sometimes, the team writes the same component in different files. That means, we have one component logic but there are 2 files. Whichever you use, you will get the same result. The <code>working scenario</code> in this case is writing the supporting components in the same file as the main component. This way, there is only one main component file and the smaller components are all inside this file. Once you include the component, you have it running. While removing, just remove one component(file) and it is done.</p>
 <blockquote>
-<p>It comes as one, goes as one.</p></blockquote>
+<p>It comes as one, goes as one.</p>
+</blockquote>
 <p>This way, to maintain the component and project becomes much easier. If there is a need that the supporting components are required in other part of the project, there are 2 ways to deal with this.</p>
 <ul>
 <li>Export the supporting component from the same file</li>

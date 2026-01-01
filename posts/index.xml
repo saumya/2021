@@ -6,294 +6,301 @@
     <description>Recent content in Posts on Saumya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Sep 2025 18:37:46 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 01 Jan 2026 15:43:05 +0530</lastBuildDate>
     <atom:link href="https://saumya.github.io/2021/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu and Snaps</title>
+      <link>https://saumya.github.io/2021/posts/41/</link>
+      <pubDate>Thu, 01 Jan 2026 15:43:05 +0530</pubDate>
+      <guid>https://saumya.github.io/2021/posts/41/</guid>
+      <description>&lt;p&gt;For a casual use, &lt;code&gt;Snaps&lt;/code&gt; seem good. Once it gets regular updates, it becomes obvious that it needs maintainance too.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Unlike the &lt;code&gt;.deb&lt;/code&gt; packages, these things keep on installing all the dependent packages along with the update.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;The main reason I dig into this is for slowness I found while using &lt;code&gt;Snap&lt;/code&gt; for all the things. Sublime, VS Code and Chromium, VLC etc; all these I was running at the same time.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Omarchy Linux</title>
       <link>https://saumya.github.io/2021/posts/40/</link>
       <pubDate>Fri, 26 Sep 2025 18:37:46 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/40/</guid>
-      <description>I generally prefer to stay on the stable versions of Linux and keep on doing the work on the same system. Tried Ubuntu and got used to it. Never bothered to install a second distro for work. The configurations to Ubuntu also as per my work requirements. This whole disro-hop thing is never my thing. Though on side, I use to see what is happening in that space. Configuring or ricing as it is said now, is also seems too much for me.</description>
+      <description>&lt;p&gt;I generally prefer to stay on the stable versions of Linux and keep on doing the work on the same system. Tried &lt;a href=&#34;https://ubuntu.com/&#34;&gt;Ubuntu&lt;/a&gt; and got used to it. Never bothered to install a second distro for work. The configurations to &lt;a href=&#34;https://ubuntu.com/&#34;&gt;Ubuntu&lt;/a&gt; also as per my work requirements. This whole disro-hop thing is never my thing. Though on side, I use to see what is happening in that space. Configuring or ricing as it is said now, is also seems too much for me.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ubuntu 24.04 and internet access</title>
       <link>https://saumya.github.io/2021/posts/39/</link>
       <pubDate>Sun, 09 Feb 2025 22:13:50 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/39/</guid>
-      <description>Seems like a known bug.&#xA;Upgrade from 22.04 LTS to 24.04 LTS and the connection to internet is broken&#xA;In my case, I upgraded to 24.04.1. The bug still is there. The fix I do is from this place. I have to do it almost every time I open the OS.&#xA;sudo rm /etc/resolv.conf&#xD;sudo dhcpcd Now as mentioned in the post internet is back but the icon on the taskbar is still broken.</description>
+      <description>&lt;p&gt;Seems like a known bug.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Upgrade from 22.04 LTS to 24.04 LTS and the connection to internet is broken&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;In my case, I upgraded to 24.04.1. The bug still is there. The fix I do is from &lt;a href=&#34;https://askubuntu.com/a/1530964&#34;&gt;this place&lt;/a&gt;. I have to do it almost every time I open the OS.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo rm /etc/resolv.conf&#xA;sudo dhcpcd&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Now as &lt;a href=&#34;https://askubuntu.com/a/1530964&#34;&gt;mentioned in the post&lt;/a&gt; internet is back but the icon on the taskbar is still broken. To fix this UI, this is the command.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ubuntu 24.04 is with an unstable installer</title>
       <link>https://saumya.github.io/2021/posts/38/</link>
       <pubDate>Thu, 23 Jan 2025 14:48:32 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/38/</guid>
-      <description>The latest LTS release of Ubuntu, 24.04 is having a very unstable installer.&#xA;I could install it from the installer in some machines without any problem.&#xA;However, the installer simply is a UI only update. On the UX side it fails completely. Seems there is no error handling done. On simplest of things, the installer just shuts down.&#xA;On one of my laptops, I find it is very difficult to go forword with installation.</description>
+      <description>&lt;p&gt;The latest LTS release of Ubuntu, 24.04 is having a very unstable installer.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;I could install it from the installer in some machines without any problem.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;However, the installer simply is a UI only update. On the UX side it fails completely. Seems there is no error handling done. On simplest of things, the installer just shuts down.&lt;/p&gt;&#xA;&lt;p&gt;On one of my laptops, I find it is very difficult to go forword with installation. Made an attempt to install the previous version of Ubuntu, which is 22.04 and it went smooth.&lt;/p&gt;</description>
     </item>
     <item>
       <title>React Native, 2025.</title>
       <link>https://saumya.github.io/2021/posts/37/</link>
       <pubDate>Fri, 17 Jan 2025 15:48:29 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/37/</guid>
-      <description>React Native still is and better than ever the toolchain for crossplatform application development. As usual the new version React Native toolchain keeps on changing. The documentation of the toolchain also keeps on changing(they call it evolving, not me).&#xA;Starting a new project is now done as this&#xA;npx @react-native-community/cli init MyNewReactNativeApp For a particular version of React Native, the command is like this.&#xA;npx @react-native-community/cli init MyApp --version &amp;#34;0.75&amp;#34; This is basically using the community cli</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://reactnative.dev/&#34;&gt;React Native&lt;/a&gt; still is and better than ever the toolchain for crossplatform application development. As usual the new version React Native toolchain keeps on changing. The documentation of the toolchain also keeps on changing(&lt;del&gt;they call it evolving&lt;/del&gt;, not me).&lt;/p&gt;&#xA;&lt;p&gt;Starting a new project is now done as this&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;npx @react-native-community/cli init MyNewReactNativeApp&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;For a particular version of React Native, the command is like this.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;npx @react-native-community/cli init MyApp --version &amp;#34;0.75&amp;#34;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This is basically using the &lt;a href=&#34;https://github.com/react-native-community/cli&#34;&gt;community cli&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>NPM script basics</title>
       <link>https://saumya.github.io/2021/posts/36/</link>
       <pubDate>Fri, 07 Jun 2024 15:23:23 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/36/</guid>
-      <description>In package.json there is a script section. From here one can run NPM Scripts.&#xA;&amp;#34;scripts&amp;#34;: {&#xD;&amp;#34;one&amp;#34;: &amp;#34;scriptOne.js&amp;#34;,&#xD;&amp;#34;two&amp;#34;: &amp;#34;scriptTwo.js&amp;#34;&#xD;} These can be run like this.&#xA;npm run one This particular line will run scriptOne.js. This is powerful as we could take Node&amp;rsquo;s power and run any automated task for ourselves.&#xA;At first this seemed simple to me. Soon I came across cross-platform bugs. Since we are writing this in JS, it could be run anywhere Node is available.</description>
+      <description>&lt;p&gt;In &lt;code&gt;package.json&lt;/code&gt; there is a &lt;code&gt;script&lt;/code&gt; section. From here one can run NPM Scripts.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;#34;scripts&amp;#34;: {&#xA;&#x9;&amp;#34;one&amp;#34;: &amp;#34;scriptOne.js&amp;#34;,&#xA;&#x9;&amp;#34;two&amp;#34;: &amp;#34;scriptTwo.js&amp;#34;&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;These can be run like this.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;npm run one&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This particular line will run &lt;code&gt;scriptOne.js&lt;/code&gt;. This is powerful as we could take Node&amp;rsquo;s power and run any automated task for ourselves.&lt;/p&gt;&#xA;&lt;p&gt;At first this seemed simple to me. Soon I came across cross-platform bugs. Since we are writing this in &lt;code&gt;JS&lt;/code&gt;, it could be run anywhere &lt;code&gt;Node&lt;/code&gt; is available. Now that could be a tricky thing. Some environments deal with certain things in a certain way. This is not a big thing if the script is written to handle those situations. Another thing is &lt;code&gt;Node&lt;/code&gt; versions. If the script is written using certain API of a particular &lt;code&gt;Node&lt;/code&gt; version, it is better to keep an eye on new releases of Node and update the script if there are breaking changes.&lt;/p&gt;</description>
     </item>
     <item>
       <title>NeoVIM on Windows</title>
       <link>https://saumya.github.io/2021/posts/35/</link>
       <pubDate>Sat, 18 May 2024 14:01:52 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/35/</guid>
-      <description>We will be talking about Windows 11 and NeoVIM. It can be seen as general Windows not specific to Windows 11, since I have done it in Windows 11, thought would mention it here in order to avoid the confusion.&#xA;On Windows machines I avoided configuring or even using NeoVIM. Thought it would be much more painful here as compared to Linux. So started using NeoVIM on WSL. Configured and ready within a couple of minutes as that is basically all Linux.</description>
+      <description>&lt;p&gt;We will be talking about Windows 11 and NeoVIM. It can be seen as general Windows not specific to Windows 11, since I have done it in Windows 11, thought would mention it here in order to avoid the confusion.&lt;/p&gt;&#xA;&lt;p&gt;On Windows machines I avoided configuring or even using NeoVIM. Thought it would be much more painful here as compared to Linux. So started using NeoVIM on WSL. Configured and ready within a couple of minutes as that is basically all Linux. Then I thought, let me try on Windows once and that would be final. If it runs fine if not better. It seemed the people at NeoVIM has made it clear that this thing is for everyone, including Windows people.&lt;/p&gt;</description>
     </item>
     <item>
       <title>NeoVIM Configuration basics</title>
       <link>https://saumya.github.io/2021/posts/34/</link>
       <pubDate>Sun, 12 May 2024 16:08:48 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/34/</guid>
-      <description>Configuring NeoVIM is straight forward. All one need to know is, where to put what.&#xA;Here is a list of references to get started with it.&#xA;For me, it was not difficult as I just needed a decent text editor with a file tree. All I did is pull the respective github repos into the folder and call them from init,lua. This is nice and fine but since the configuration is too easy and Lua just feels good to play with, thinking of confuguring it further and play with plugin managers.</description>
+      <description>&lt;p&gt;Configuring NeoVIM is straight forward. All one need to know is, where to put what.&lt;/p&gt;&#xA;&lt;p&gt;Here is a &lt;a href=&#34;#reference-readings&#34;&gt;list of references&lt;/a&gt; to get started with it.&lt;/p&gt;&#xA;&lt;p&gt;For me, it was not difficult as I just needed a decent text editor with a file tree. All I did is pull the respective github repos into the folder and call them from &lt;code&gt;init,lua&lt;/code&gt;. This is nice and fine but since the configuration is too easy and &lt;code&gt;Lua&lt;/code&gt; just feels good to play with, thinking of confuguring it further and play with plugin managers.&lt;/p&gt;</description>
     </item>
     <item>
       <title>VIM to NeoVIM</title>
       <link>https://saumya.github.io/2021/posts/33/</link>
       <pubDate>Fri, 10 May 2024 15:48:12 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/33/</guid>
-      <description>I never thought, the day will come! The story of VIM addiction and NeoVIM adoption.&#xA;In search of a code editor which is available everywhere, from Desktop to servers, I accidentally got used to vi some years back. I had to edit some files on the server or they call it Cloud, the only editor available there was vi. I just used it and forgot it as it was not even close to anything that modern code editors offer.</description>
+      <description>&lt;p&gt;I never thought, the day will come! The story of &lt;a href=&#34;https://www.vim.org/&#34;&gt;VIM&lt;/a&gt; addiction and &lt;a href=&#34;https://neovim.io/&#34;&gt;NeoVIM&lt;/a&gt; &lt;a href=&#34;#neovim-and-ubuntu&#34;&gt;adoption&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;In search of a code editor which is available everywhere, from Desktop to servers, I accidentally got used to &lt;code&gt;vi&lt;/code&gt; some years back. I had to edit some files on the server or they call it &lt;code&gt;Cloud&lt;/code&gt;, the only editor available there was &lt;code&gt;vi&lt;/code&gt;. I just used it and forgot it as it was not even close to anything that modern code editors offer.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Using a tool</title>
       <link>https://saumya.github.io/2021/posts/32/</link>
       <pubDate>Thu, 25 Jan 2024 13:01:18 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/32/</guid>
-      <description>Is it a library or a framework?!&#xA;Do not know, but everyone is using it.&#xA;Must be good.&#xA;Hype Driven Development.&#xA;It should be a known story for experienced developers. For new developers it is alright to start here.&#xA;The problem is never the tool itself. How it is been used, the implementation details. That is the place, where it matters.&#xA;During the last days of FlashPlayer, the company and the community both jumped into Flex, the framework and the tool-chain to say, everything can be fixed with it!</description>
+      <description>&lt;p&gt;Is it a library or a framework?!&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Do not know, but everyone is using it.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Must be good.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Hype Driven Development.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;It should be a known story for experienced developers. For new developers it is alright to start here.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The problem is never the tool itself. How it is been used, the implementation details. That is the place, where it matters.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;During the last days of FlashPlayer, the company and the community both jumped into Flex, the framework and the tool-chain to say, &lt;code&gt;everything can be fixed with it&lt;/code&gt;! Any and all problems seemed just not enough for Flex. It can do this, it can do that and the story went on. This is what happens when &lt;code&gt;you try to please the corporates&lt;/code&gt;. FlashPlayer and Flash IDE are still the best ones out there for a creative and interactive experience. This can not be said for Flex, which is a corporate pleasing Framework / tool chain on top of FlashPlayer. Un/Fortunately the whole Flex thing went down and took Flash with it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Secure boot. Installing Linux on a Windows machine.</title>
       <link>https://saumya.github.io/2021/posts/31/</link>
       <pubDate>Wed, 20 Dec 2023 17:08:24 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/31/</guid>
-      <description>Installing Linux side by side on a Windows machine, was and still is simple.&#xA;However, now a days there is one more / extra step before installing Linux(specifically Ubuntu) on a Windows machine. Now a days the hardware and the boot option comes with a setting called Secure Boot. This option is by default it is enabled for a new laptop running on Windows 11. This is to make the system secure at boot level and Windows 11 requires this option to be available in order to be installed on the system.</description>
+      <description>&lt;p&gt;Installing Linux side by side on a Windows machine, was and still is simple.&lt;/p&gt;&#xA;&lt;p&gt;However, now a days there is one more / extra step before installing Linux(specifically Ubuntu) on a Windows machine. Now a days the hardware and the boot option comes with a setting called &lt;code&gt;Secure Boot&lt;/code&gt;. This option is by default it is enabled for a new laptop running on Windows 11. This is to make the system secure at boot level and Windows 11 requires this option to be available in order to be installed on the system.&lt;/p&gt;</description>
     </item>
     <item>
       <title>ReactNative. Developing on Windows</title>
       <link>https://saumya.github.io/2021/posts/30/</link>
       <pubDate>Mon, 18 Dec 2023 22:00:44 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/30/</guid>
-      <description>I always knew this from my experience that, Windows, the OS is broken in a lot of ways for development. However, once I shifted out of it never thought about it. In a recent turn of events, I am back in a Windows Machine for ReactNative development. And the old ghosts are back alive! Tried a lot of things, but the old trick did the job for me.&#xA;In my project, I was constantly getting this error while building for Android.</description>
+      <description>&lt;p&gt;I always knew this from my experience that, &lt;code&gt;Windows, the OS is broken&lt;/code&gt; in a lot of ways for development. However, once I shifted out of it never thought about it. In a recent turn of events, I am back in a &lt;code&gt;Windows Machine&lt;/code&gt; for ReactNative development. And the old ghosts are back alive! Tried a lot of things, but the old trick did the job for me.&lt;/p&gt;&#xA;&lt;p&gt;In my project, I was constantly getting this error while building for Android.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Zig</title>
       <link>https://saumya.github.io/2021/posts/29/</link>
       <pubDate>Sun, 30 Jul 2023 15:31:37 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/29/</guid>
-      <description>For sometime now, I was searching for an alternative for Go. While the language itself is nice and I am productive with it, there are reasons to look elsewhere.&#xA;Now stared with Zig.&#xA;While working with Go, I thought there could not be simpler thing than this. Installation is smooth, works on every platform and fast. Infact this blog runs on Hugo, which runs on Go. But lately there are data mining and other corporate politics is happening in that space.</description>
+      <description>&lt;p&gt;For sometime now, I was searching for an alternative for &lt;a href=&#34;https://go.dev/&#34;&gt;Go&lt;/a&gt;. While the language itself is nice and I am productive with it, there are reasons to look elsewhere.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Now stared with &lt;a href=&#34;https://ziglang.org&#34;&gt;Zig&lt;/a&gt;.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;While working with &lt;a href=&#34;https://go.dev/&#34;&gt;Go&lt;/a&gt;, I thought there could not be simpler thing than this. Installation is smooth, works on every platform and fast. Infact this blog runs on &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, which runs on &lt;a href=&#34;https://go.dev/&#34;&gt;Go&lt;/a&gt;. But lately there are data mining and other corporate politics is happening in that space. After all Google!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Removing Yarn 2.x</title>
       <link>https://saumya.github.io/2021/posts/28/</link>
       <pubDate>Fri, 14 Jul 2023 12:16:03 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/28/</guid>
-      <description>This is addition to the last two posts regarding Yarn.&#xA;Setting different Yarn versions in Ubuntu / Linux Working with YARN Now after working with it for more than 2 years, it feels that Yarn 1 is more useful. Though, technically Yarn 2 has all the best intentions and implementations, there are situations where Yarn 1 just works.&#xA;How to remove Yarn 2 completely from Ubuntu I am using NVM for managing different NodeJS versions.</description>
+      <description>&lt;p&gt;This is addition to the last two posts regarding &lt;a href=&#34;https://yarnpkg.com/&#34;&gt;Yarn&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../12&#34;&gt;Setting different Yarn versions in Ubuntu / Linux&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../21&#34;&gt;Working with YARN&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Now after working with it for more than 2 years, it feels that &lt;a href=&#34;https://classic.yarnpkg.com/&#34;&gt;Yarn 1&lt;/a&gt; is more useful. Though, technically &lt;a href=&#34;https://yarnpkg.com/&#34;&gt;Yarn 2&lt;/a&gt; has all the best intentions and implementations, there are situations where &lt;a href=&#34;https://classic.yarnpkg.com/&#34;&gt;Yarn 1&lt;/a&gt; just works.&lt;/p&gt;&#xA;&lt;h3 id=&#34;how-to-remove-yarn-2yarn-completely-from-ubuntu&#34;&gt;How to remove &lt;a href=&#34;https://yarnpkg.com/&#34;&gt;Yarn 2&lt;/a&gt; completely from Ubuntu&lt;/h3&gt;&#xA;&lt;p&gt;I am using &lt;a href=&#34;https://github.com/nvm-sh/nvm&#34;&gt;NVM&lt;/a&gt; for managing different &lt;a href=&#34;https://nodejs.org/en&#34;&gt;NodeJS&lt;/a&gt; versions. So the removing of some files and folders may be different in terms of their &lt;code&gt;path&lt;/code&gt;. However overall it will be the same process if one has installed &lt;a href=&#34;https://yarnpkg.com/&#34;&gt;Yarn&lt;/a&gt; on a standalone &lt;a href=&#34;https://nodejs.org/en&#34;&gt;NodeJS&lt;/a&gt; installation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Second Product is online.</title>
       <link>https://saumya.github.io/2021/posts/27/</link>
       <pubDate>Sun, 09 Jul 2023 11:57:00 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/27/</guid>
-      <description>I was holding myself from saying anything about it for last two and half years. The incredible journey to the release of the first product and now the second product is online to the global audience.&#xA;The team is beautiful. Fast. To the point. Remote.&#xA;It is an honor to work with the team. While serving the world and releasing updates, it never felt anyone is down. Energy is high and flowing.</description>
+      <description>&lt;p&gt;I was holding myself from saying anything about it for last two and half years. The incredible journey to the release of the first product and now the second product is online to the global audience.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The team is beautiful. Fast. To the point. Remote.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;It is an honor to work with the team. While serving the world and releasing updates, it never felt anyone is down. Energy is high and flowing. The high efficient machine.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ubuntu 23.04 fixed with an update</title>
       <link>https://saumya.github.io/2021/posts/26/</link>
       <pubDate>Fri, 16 Jun 2023 12:29:43 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/26/</guid>
-      <description>In my last post I talked about the problem with Ubuntu 23.04.&#xA;While my laptop was workable but not optimal. I could not controll the brightness of the screen. I was hoping Ubuntu will fix this with an update. And that is what has happened.&#xA;sudo apt update&#xD;sudo apt upgrade Those two are not new to any Ubuntu user. But with these two, Ubuntu got the fix for the brightness control problem.</description>
+      <description>&lt;p&gt;In my last post I talked about the problem with Ubuntu 23.04.&lt;/p&gt;&#xA;&lt;p&gt;While my laptop was workable but not optimal. I could not controll the brightness of the screen. I was hoping Ubuntu will fix this with an update. And that is what has happened.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt update&#xA;sudo apt upgrade&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Those two are not new to any Ubuntu user. But with these two, Ubuntu got the fix for the brightness control problem. There might be other fixes too. For me, I got the things I was waiting for.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ubuntu 23.04, something is missing.</title>
       <link>https://saumya.github.io/2021/posts/25/</link>
       <pubDate>Sun, 28 May 2023 16:12:02 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/25/</guid>
-      <description>I updated my machine to Ubuntu 23.04.&#xA;There are so many things which are just smoother to work with.&#xA;The system itself, seems to be faster. I think this is because Snaps just start instantly! I did not believe this for the fist time! This one is the best thing to happen in my opinion. I have tried opening everything that should take sometime to open, but no the just open instantly.</description>
+      <description>&lt;p&gt;I updated my machine to Ubuntu 23.04.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;There are so many things which are just smoother to work with.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;The system itself, seems to be faster. I think this is because Snaps just start instantly! I did not believe this for the fist time! This one is the best thing to happen in my opinion. I have tried opening everything that should take sometime to open, but no the just open instantly.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Do it and see</title>
       <link>https://saumya.github.io/2021/posts/24/</link>
       <pubDate>Thu, 19 Jan 2023 15:10:01 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/24/</guid>
-      <description>This is about implementing an idea and seeing it in the market.&#xA;Jump into it. Give it all that you have and see.&#xA;There is a huge difference between just sitting in the side and validating something or putting the effort to actully make it. As I see it, failed in terms of market and money is fine. But that gives immense idea about the reality of the world. If you know to code, making a software product is easy.</description>
+      <description>&lt;p&gt;This is about implementing an idea and seeing it in the market.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Jump into it. Give it all that you have and see.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;There is a huge difference between just sitting in the side and validating something or putting the effort to actully make it. As I see it, failed in terms of market and money is fine. But that gives immense idea about the reality of the world. If you know to code, making a software product is easy. Very easy. Do it and see.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Being there.</title>
       <link>https://saumya.github.io/2021/posts/23/</link>
       <pubDate>Sun, 15 Jan 2023 12:43:58 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/23/</guid>
-      <description>Namaskaram.&#xA;It happened last week, Inner Engineering Completion in person program, near me. Personally, it was a long wait to be a part of this event in person. Never thought, it would be such a surprise to me! Overall it was as usual, pleasant and smooth with high energy flowing all-around. I bow down to all the volunteers, who brought it here.&#xA;Being a Volunteer in the event has a different meaning altogether.</description>
+      <description>&lt;p&gt;Namaskaram.&lt;/p&gt;&#xA;&lt;p&gt;It happened last week, &lt;a href=&#34;https://innerengineering.sadhguru.org/completion&#34;&gt;Inner Engineering Completion&lt;/a&gt; in person program, near me. Personally, it was a long wait to be a part of this event in person. Never thought, it would be such a surprise to me! Overall it was as usual, pleasant and smooth with high energy flowing all-around. I &lt;code&gt;bow down to all the volunteers&lt;/code&gt;, who brought it here.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Being a Volunteer in the event has a different meaning altogether.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Instructions Work</title>
       <link>https://saumya.github.io/2021/posts/23-1/</link>
       <pubDate>Sun, 15 Jan 2023 01:31:09 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/23-1/</guid>
-      <description>What is the big deal?! It should work.&#xA;Yep, it is true.&#xA;The deal is, who takes the instructions seriously.&#xA;I am talking in general here. Once you accept something as valuable, a book or a guide, then taking it as instructed makes a whole difference. Problem arises when one becomes a little casual about the instructions of value. Then it does not matter, what are you doing, there will not be desired result.</description>
+      <description>&lt;p&gt;What is the big deal?! It should work.&lt;/p&gt;&#xA;&lt;p&gt;Yep, it is true.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The deal is, who takes the instructions seriously.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;I am talking in general here. Once you accept something as valuable, a book or a guide, then taking it as instructed makes a whole difference. Problem arises when one becomes a little casual about the instructions of value. Then it does not matter, what are you doing, there will not be desired result.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Product or Technology</title>
       <link>https://saumya.github.io/2021/posts/22/</link>
       <pubDate>Tue, 03 Jan 2023 20:30:19 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/22/</guid>
-      <description>This is always the case. It is always OR never AND.&#xA;There are talks about how technology is the key to a successful product. May be it is true in the beginning, till one has to maintain it. Almost all successful products in the market are not of the latest technolgy. There are some parts of it is new technology, but majority is old, very old. The technology they use are once new, but now it is old and that is ok.</description>
+      <description>&lt;p&gt;This is always the case. It is always &lt;code&gt;OR&lt;/code&gt; never &lt;code&gt;AND&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;There are talks about how technology is the key to a successful product. May be it is true in the beginning, till one has to maintain it. Almost all successful products in the market are not of the latest technolgy. There are some parts of it is new technology, but majority is old, very old. The technology they use are once new, but now it is old and that is ok. No one cares what the technology it uses behind the scenes. As long as it solves the purpose, it is fine.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Working with YARN</title>
       <link>https://saumya.github.io/2021/posts/21/</link>
       <pubDate>Tue, 16 Aug 2022 10:59:17 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/21/</guid>
-      <description>Working in Yarn was a little involved. That is Yarn version 1. One has to play around with Node and NPM to make things setup. With Yarn version 2 and above, this is mostly done by Node and a new utility called corepack.&#xA;Now, Yarn does not need to be installed as a global package. Yarn can be enabled for individual projects (individual folders).&#xA;The corepack enable is all there is to it.</description>
+      <description>&lt;p&gt;Working in &lt;a href=&#34;https://classic.yarnpkg.com/lang/en/&#34;&gt;Yarn&lt;/a&gt; was a little involved. That is &lt;a href=&#34;https://classic.yarnpkg.com/lang/en/&#34;&gt;Yarn&lt;/a&gt; version 1. One has to play around with Node and NPM to make things setup. With &lt;a href=&#34;https://yarnpkg.com/&#34;&gt;Yarn&lt;/a&gt; version 2 and above, this is mostly done by Node and a new utility called &lt;code&gt;corepack&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Now, &lt;a href=&#34;https://yarnpkg.com/&#34;&gt;Yarn&lt;/a&gt; does not need to be installed as a global package. &lt;a href=&#34;https://yarnpkg.com/&#34;&gt;Yarn&lt;/a&gt; can be enabled for individual projects (individual folders).&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The &lt;code&gt;corepack enable&lt;/code&gt; is all there is to it.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Open the command prompt and move to the folder, where &lt;code&gt;Yarn&lt;/code&gt; is needed.&#xA;Once there, either initialise an empty Yarn project. That will takecare of everything.&lt;/p&gt;</description>
     </item>
     <item>
       <title>React State update</title>
       <link>https://saumya.github.io/2021/posts/20/</link>
       <pubDate>Sun, 29 May 2022 13:05:17 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/20/</guid>
-      <description>Updating a state in React looks something like below.&#xA;const [count, setCount] = useState(0)&#xD;setCount(5) Here the new value of the count is provided to setCount. That updates the state of count to its new value.&#xA;This is the most used form of the state update.&#xA;However, there is another form of this functionality. This looks like below.&#xA;setState( previousState=&amp;gt;{&#xD;// Do Something with Previous Data&#xD;// And return the newly created Data&#xD;return( newState )&#xD;} ) So the code setCount(5) will become like below.</description>
+      <description>&lt;p&gt;Updating a state in &lt;a href=&#34;https://reactjs.org/&#34;&gt;React&lt;/a&gt; looks something like below.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&#x9;const [count, setCount] = useState(0)&#xA;&#x9;setCount(5)&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Here the new value of the &lt;code&gt;count&lt;/code&gt; is provided to &lt;code&gt;setCount&lt;/code&gt;. That updates the &lt;code&gt;state&lt;/code&gt; of &lt;code&gt;count&lt;/code&gt; to its new value.&lt;/p&gt;&#xA;&lt;p&gt;This is the most used form of the &lt;code&gt;state&lt;/code&gt; update.&lt;/p&gt;&#xA;&lt;p&gt;However, there is another form of this functionality. This looks like below.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&#x9;setState( previousState=&amp;gt;{&#xA;&#x9;&#x9;// Do Something with Previous Data&#xA;&#x9;&#x9;// And return the newly created Data&#xA;&#x9;&#x9;return( newState )&#xA;&#x9;&#x9;} )&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;So the code &lt;code&gt;setCount(5)&lt;/code&gt; will become like below.&lt;/p&gt;</description>
     </item>
     <item>
       <title>React Component and props.children</title>
       <link>https://saumya.github.io/2021/posts/19/</link>
       <pubDate>Tue, 17 May 2022 15:29:17 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/19/</guid>
-      <description>The game of React is in its components. Almost everything here is a component. Sooner or later the need to pass properties to components will arise. This is straight forward as we know like this.&#xA;&amp;lt;MyComp myTitle=&amp;#39;Nice Component&amp;#39; /&amp;gt; Inside component we can access this with props.myTitle.&#xA;const MyComp = (props)=&amp;gt;{&#x9;return(&#xD;&amp;lt;div&amp;gt;&#xD;{ props.myTitle }&#xD;&amp;lt;/div&amp;gt;&#xD;)&#xD;} This can also be written as below.&#xA;const MyComp = ( {myTitle} )=&amp;gt;{&#x9;return(&#xD;&amp;lt;div&amp;gt;&#xD;{ myTitle }&#xD;&amp;lt;/div&amp;gt;&#xD;)&#xD;} There is a nice magic props that React has, on all the components.</description>
+      <description>&lt;p&gt;The game of &lt;a href=&#34;https://reactjs.org/&#34;&gt;React&lt;/a&gt; is in its components. Almost everything here is a component.  Sooner or later the need to pass properties to components will arise. This is straight forward as we know like this.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;MyComp myTitle=&amp;#39;Nice Component&amp;#39; /&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Inside component we can access this with &lt;code&gt;props.myTitle&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;const MyComp = (props)=&amp;gt;{&#x9;&#xA;&#x9;return(&#xA;&#x9;&#x9;&amp;lt;div&amp;gt;&#xA;&#x9;&#x9;&#x9;{ props.myTitle }&#xA;&#x9;&#x9;&amp;lt;/div&amp;gt;&#xA;&#x9;)&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This can also be written as below.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;const MyComp = ( {myTitle} )=&amp;gt;{&#x9;&#xA;&#x9;return(&#xA;&#x9;&#x9;&amp;lt;div&amp;gt;&#xA;&#x9;&#x9;&#x9;{ myTitle }&#xA;&#x9;&#x9;&amp;lt;/div&amp;gt;&#xA;&#x9;)&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;&#xA;&lt;p&gt;There is a nice magic &lt;code&gt;props&lt;/code&gt; that &lt;a href=&#34;https://reactjs.org/&#34;&gt;React&lt;/a&gt; has, on all the components. That is known as &lt;code&gt;props.children&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Managing Component Code in ReactJS</title>
       <link>https://saumya.github.io/2021/posts/18/</link>
       <pubDate>Sat, 14 May 2022 11:27:24 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/18/</guid>
-      <description>React defines and speculates about how to manage code files for components. There are so many documentation and tools available as per the best practices and perfect scenaios. However as per my experience no perfect scenario ever worked for any individual or company.&#xA;There is difference between perfect scenario and working scenario.&#xA;While everyone should try to stick to the best practices and perfect scenarios, it is a perpetual job. It never ends.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://reactjs.org/&#34;&gt;React&lt;/a&gt; defines and speculates about how to manage code files for components. There are so many documentation and tools available as per the best practices and perfect scenaios. However as per my experience &lt;code&gt;no perfect scenario&lt;/code&gt; ever worked for any individual or company.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;There is difference between perfect scenario and working scenario.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;While everyone should try to stick to the best practices and perfect scenarios, it is a perpetual job. It never ends. Cause may be anything, but it never gets complete. There exists a working scenario.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ubuntu 22.04</title>
       <link>https://saumya.github.io/2021/posts/17/</link>
       <pubDate>Thu, 12 May 2022 22:08:27 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/17/</guid>
-      <description>My working machine is a Linux machine for some years now.&#xA;I never felt this kind of freedom and productive before. Now I can say it is even better than MacOS in terms of developer freedom and easiness. It is better than Windows in terms of GUI applications. The time has gone when Linux used to be command only. Today the GUI applications are much better in Linux than Windows.</description>
+      <description>&lt;p&gt;My working machine is a &lt;code&gt;Linux&lt;/code&gt; machine for some years now.&lt;/p&gt;&#xA;&lt;p&gt;I never felt this kind of freedom and productive before. Now I can say it is even better than &lt;code&gt;MacOS&lt;/code&gt; in terms of developer freedom and easiness. It is better than &lt;code&gt;Windows&lt;/code&gt; in terms of GUI applications. The time has gone when &lt;code&gt;Linux&lt;/code&gt; used to be command only. Today the GUI applications are much better in Linux than Windows.&lt;/p&gt;</description>
     </item>
     <item>
       <title>SVG on Web</title>
       <link>https://saumya.github.io/2021/posts/16/</link>
       <pubDate>Sat, 26 Feb 2022 13:06:42 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/16/</guid>
-      <description>SVG is fine jsut to know it as an image format.&#xA;However, to deal with SVG on a web application as a developer is a different thing. SVG is too generic for better or worse as Javascript. Unless you know your way through it, it might seem confusing or easy.&#xA;First is there are many ways to include SVG in web.&#xA;The basic is just the tag itself. It is a valid HTML tag.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg&#34;&gt;SVG&lt;/a&gt; is fine jsut to know it as an image format.&lt;/p&gt;&#xA;&lt;p&gt;However, to deal with SVG on a web application as a developer is a different thing. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg&#34;&gt;SVG&lt;/a&gt; is too generic for better or worse as Javascript. Unless you know your way through it, it might seem confusing or easy.&lt;/p&gt;&#xA;&lt;p&gt;First is there are many ways to include &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg&#34;&gt;SVG&lt;/a&gt; in web.&lt;/p&gt;&#xA;&lt;p&gt;The basic is just the tag itself. It is a valid HTML tag. So basically the SVG thing can be added inside an HTML page as tags like &lt;code&gt;div&lt;/code&gt; and &lt;code&gt;span&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>VIM Plugin NERDTree</title>
       <link>https://saumya.github.io/2021/posts/15/</link>
       <pubDate>Sat, 19 Feb 2022 22:17:37 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/15/</guid>
-      <description>Installing a VIM plugin in Ubuntu is not that complicated as it used to be. All one has to do is put the plugin in a proper folder. However, do not confuse yourself VIM with VI. By default Ubuntu comes installed with VI and not VIM. Even if you put the VIM plugin in the proper place, it will not reflect in this editor.&#xA;First install VIM.&#xA;For Ubuntu it is just sudo apt install vim.</description>
+      <description>&lt;p&gt;Installing a &lt;code&gt;VIM&lt;/code&gt; plugin in Ubuntu is not that complicated as it used to be. All one has to do is put the plugin in a proper folder. However, do not confuse yourself &lt;code&gt;VIM&lt;/code&gt; with &lt;code&gt;VI&lt;/code&gt;. By default Ubuntu comes installed with &lt;code&gt;VI&lt;/code&gt; and not &lt;code&gt;VIM&lt;/code&gt;. Even if you put the &lt;code&gt;VIM&lt;/code&gt; plugin in the proper place, it will not reflect in this editor.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;First install &lt;a href=&#34;https://www.vim.org/&#34;&gt;VIM&lt;/a&gt;.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;For Ubuntu it is just &lt;code&gt;sudo apt install vim&lt;/code&gt;. This is the critical step. Next is &lt;code&gt;NERDTree&lt;/code&gt; a popular plugin and a must have for any &lt;code&gt;VIM&lt;/code&gt; user. The path to put a plugin for NERDTree is similar as&lt;/p&gt;</description>
     </item>
     <item>
       <title>Alpine JS</title>
       <link>https://saumya.github.io/2021/posts/14/</link>
       <pubDate>Tue, 15 Feb 2022 15:18:23 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/14/</guid>
-      <description>In the noisy space of Javascript and Javascript Frameworks, this one is nice and quiet. The simplicity of this framework dragged me into it. This happens to me for a new framework which does the thing and keeps it simple. Same thing happened to me when React came in. Appart from its corporate backing, it did work for a couple of years. As usual slowly complexity built arround it. I am afraid Alpine might go that route.</description>
+      <description>&lt;p&gt;In the noisy space of Javascript and Javascript Frameworks, this one is nice and quiet. The simplicity of this framework dragged me into it. This happens to me for a new framework which does the thing and keeps it simple. Same thing happened to me when &lt;a href=&#34;https://reactjs.org/&#34;&gt;React&lt;/a&gt; came in. Appart from its corporate backing, it did work for a couple of years. As usual slowly complexity built arround it. I am afraid &lt;a href=&#34;https://alpinejs.dev/&#34;&gt;Alpine&lt;/a&gt; might go that route. But till then let&amp;rsquo;s enjoy it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Copying folder with Python</title>
       <link>https://saumya.github.io/2021/posts/13/</link>
       <pubDate>Sat, 12 Feb 2022 22:21:04 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/13/</guid>
-      <description>Python is powerful like anyother programming language. However the simplicity of it makes it more beautiful.&#xA;I was trying to automate some of my tasks and this needed copying of a folder with all its files and folders and files inside those folders to a new location. With Python it just took some lines and the task is done!&#xA;import shutil&#xA;shutil.copytree(source_folder, destination_folder, dirs_exist_ok = True)&#xA;The shutil is a utility to deal with file operations.</description>
+      <description>&lt;p&gt;Python is powerful like anyother programming language. However the simplicity of it makes it more beautiful.&lt;/p&gt;&#xA;&lt;p&gt;I was trying to automate some of my tasks and this needed copying of a folder with all its files and folders and files inside those folders to a new location. With Python it just took some lines and the task is done!&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;import shutil&lt;br&gt;&#xA;shutil.copytree(source_folder, destination_folder, dirs_exist_ok = True)&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;https://docs.python.org/3/library/shutil.html&#34;&gt;shutil&lt;/a&gt; is a utility to deal with file operations. The trick here is &lt;code&gt;dirs_exist_ok&lt;/code&gt; parameter. The official document says it is a new addition in version 3.8.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Setting different Yarn versions in Ubuntu / Linux</title>
       <link>https://saumya.github.io/2021/posts/12/</link>
       <pubDate>Thu, 10 Feb 2022 14:51:16 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/12/</guid>
-      <description>This should be a one liner as per the Yarn Docs.&#xA;It doesnot work always like that.&#xA;The problem This happens if you have installed the latest version of Yarn. Then and only then one can change Yarn versions. After installing the latest version of Yarn, we can use the old version by setting Yarn to older version.&#xA;yarn set version classic&#xA;The classic version is 1.x version.&#xA;At this point we are good for our projects which use Yarn version 1.</description>
+      <description>&lt;p&gt;This should be a one liner as per the &lt;a href=&#34;https://yarnpkg.com/cli/set/version&#34;&gt;Yarn Docs&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;It doesnot work always like that.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-problem&#34;&gt;The problem&lt;/h2&gt;&#xA;&lt;p&gt;This happens if you have installed the latest version of &lt;a href=&#34;https://yarnpkg.com/getting-started/install&#34;&gt;Yarn&lt;/a&gt;. Then and only then one can change &lt;code&gt;Yarn&lt;/code&gt; versions. After installing the latest version of &lt;code&gt;Yarn&lt;/code&gt;, we can use the old version by setting Yarn to older version.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;yarn set version classic&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;The &lt;code&gt;classic&lt;/code&gt; version is &lt;code&gt;1.x&lt;/code&gt; version.&lt;/p&gt;&#xA;&lt;p&gt;At this point we are good for our projects which use &lt;code&gt;Yarn&lt;/code&gt; version 1.x.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reviving my MacBookPro</title>
       <link>https://saumya.github.io/2021/posts/11/</link>
       <pubDate>Wed, 09 Feb 2022 12:21:01 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/11/</guid>
-      <description>The thing is, Apple does not care about anything else but money.&#xA;Apple products are good. They work as Apple expects them to work. People just follow along and pride themselves for having an Apple device. The products die when Apple wants them to die. Now my device, MacBookPro which is still good in terms of Hardware, Apple software does not get updated in this. As per Apple the device needs an upgrade.</description>
+      <description>&lt;p&gt;The thing is, Apple does not care about anything else but money.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Apple products are good.&lt;/li&gt;&#xA;&lt;li&gt;They work as Apple expects them to work.&lt;/li&gt;&#xA;&lt;li&gt;People just follow along and pride themselves for having an Apple device.&lt;/li&gt;&#xA;&lt;li&gt;The products die when Apple wants them to die.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Now my device, MacBookPro which is still good in terms of Hardware, Apple software does not get updated in this. As per Apple the device needs an upgrade. Well that is when I thought of other options. I am definitely not going to get another Apple developer machine. I brought this one to learn &lt;code&gt;ObjectiveC&lt;/code&gt; and later it helped me learn &lt;code&gt;Swift&lt;/code&gt;. That is all and that is done.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Powerline Fish</title>
       <link>https://saumya.github.io/2021/posts/10/</link>
       <pubDate>Tue, 01 Feb 2022 22:43:48 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/10/</guid>
-      <description>Powerline is a wonderful utility apart from visually pleasing shell prompts.&#xA;In the early days it was a whole lot of effort to install and apply it to Linux / Ubuntu. However the situations have changed. Now it is&#xA;sudo apt install powerline and there you have it.&#xA;Now to add this to Fish, the best way is to use Oh My Fish. Once Oh My Fish is installed, enable bobthefish theme.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/powerline/powerline&#34;&gt;Powerline&lt;/a&gt; is a wonderful utility apart from visually pleasing shell prompts.&lt;/p&gt;&#xA;&lt;p&gt;In the early days it was a whole lot of effort to install and apply it to Linux / Ubuntu. However the situations have changed. Now it is&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt install powerline&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;and there you have it.&lt;/p&gt;&#xA;&lt;p&gt;Now to add this to &lt;a href=&#34;https://fishshell.com/&#34;&gt;Fish&lt;/a&gt;, the best way is to use &lt;a href=&#34;https://github.com/oh-my-fish/oh-my-fish&#34;&gt;Oh My Fish&lt;/a&gt;. Once &lt;a href=&#34;https://github.com/oh-my-fish/oh-my-fish&#34;&gt;Oh My Fish&lt;/a&gt; is installed, enable &lt;code&gt;bobthefish&lt;/code&gt; theme. This can be done by using the command below.&lt;/p&gt;</description>
     </item>
     <item>
       <title>.bashrc / .bash_profile</title>
       <link>https://saumya.github.io/2021/posts/9/</link>
       <pubDate>Mon, 31 Jan 2022 20:34:31 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/9/</guid>
-      <description>Setting up any UNIX like system comes down to a single startup file. There could be many, if one wants to, the freedom is always there. But generally it starts at a single point.&#xA;OSX / MacOS In this land the file is .bash_profile. Almost all the things can be configured here.&#xA;UBUNTU / Linux Here the file is .bashrc. All the PATH and systemwide settings reside here.&#xA;Both of these files stay in the root of the user home folder in both MacOS and UBUNTU.</description>
+      <description>&lt;p&gt;Setting up any UNIX like system comes down to a single startup file. There could be many, if one wants to, the freedom is always there. But generally it starts at a single point.&lt;/p&gt;&#xA;&lt;h1 id=&#34;osx--macos&#34;&gt;OSX / MacOS&lt;/h1&gt;&#xA;&lt;p&gt;In this land the file is &lt;code&gt;.bash_profile&lt;/code&gt;. Almost all the things can be configured here.&lt;/p&gt;&#xA;&lt;h1 id=&#34;ubuntu--linux&#34;&gt;UBUNTU / Linux&lt;/h1&gt;&#xA;&lt;p&gt;Here the file is &lt;code&gt;.bashrc&lt;/code&gt;. All the &lt;code&gt;PATH&lt;/code&gt; and systemwide settings reside here.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Both of these files stay in the &lt;code&gt;root&lt;/code&gt; of the &lt;code&gt;user&lt;/code&gt; home folder in both &lt;code&gt;MacOS&lt;/code&gt; and &lt;code&gt;UBUNTU&lt;/code&gt;. This folder is referred as &lt;code&gt;~/&lt;/code&gt; in both the Operating Systems.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2021 Retrospect.</title>
       <link>https://saumya.github.io/2021/posts/8/</link>
       <pubDate>Sat, 29 Jan 2022 16:17:25 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/8/</guid>
-      <description>The year started slow but kept up the steadiness. There were a lot of endings and new beginnings. As always if it flows, it is life.&#xA;Tech and work A new project started.&#xA;For a long long time I was in a stealth mode. Bootstrapping and failing, then start over again and fail. The cycle finally ended. There are huge experience gain in terms of building a product and selling it.</description>
+      <description>&lt;p&gt;The year started slow but kept up the steadiness. There were a lot of endings and new beginnings. As always if it flows, it is life.&lt;/p&gt;&#xA;&lt;h1 id=&#34;tech-and-work&#34;&gt;Tech and work&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;A new project started.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;For a long long time I was in a stealth mode. Bootstrapping and failing, then start over again and fail. The cycle finally ended. There are huge experience gain in terms of building a product and selling it. It is not just technical but a product is much more than that. &lt;code&gt;One must try it. Atleast once in a lifetime.&lt;/code&gt; The outcome is huge.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Vite it.</title>
       <link>https://saumya.github.io/2021/posts/7/</link>
       <pubDate>Sun, 21 Nov 2021 11:45:53 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/7/</guid>
-      <description>The natural progress of the frontend tooling. Whether you like it or not, change is here to stay. At the moment the frontend frameworks have reached a point, where we need something else to have a better Developer Experience.&#xA;Applications were always like this and will remain like this.&#xA;What could change is how we write these applications. Divisions have been made to separate the concerns. However in frontend, we had put very little effort in terms of development for a long long time.</description>
+      <description>&lt;p&gt;The natural progress of the frontend tooling. Whether you like it or not, &lt;code&gt;change&lt;/code&gt; is here to stay. At the moment the frontend frameworks have reached a point, where we need something else to have a better Developer Experience.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Applications were always like this and will remain like this.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;What could change is &lt;code&gt;how&lt;/code&gt; we write these applications. Divisions have been made to separate the concerns. However in frontend, we had put very little effort in terms of development for a long long time. We had &lt;code&gt;Flash&lt;/code&gt; for a long time. It did its job, but in native browser the whole thing changed when &lt;a href=&#34;https://jquery.com/&#34;&gt;&lt;code&gt;jQuery&lt;/code&gt;&lt;/a&gt; entered. Almost all websites were made with &lt;a href=&#34;https://jquery.com/&#34;&gt;jQuery&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Code to throw away.</title>
       <link>https://saumya.github.io/2021/posts/6/</link>
       <pubDate>Sat, 20 Nov 2021 21:57:20 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/6/</guid>
-      <description>The thing that is fixed in code is the change. While lot of books and philosophy is done towards how to reuse the code, very little is focused towards the change!&#xA;The reality of the life of the code is very different from the literature around it.&#xA;All the reusabilty and other thoughts look good in books. In reality I have hardly seen any code is re-used. This is not to diminish the reusabilty of the code.</description>
+      <description>&lt;p&gt;The thing that is fixed in &lt;code&gt;code&lt;/code&gt; is the change. While lot of books and philosophy is done towards how to reuse the code, very little is focused towards the &lt;code&gt;change&lt;/code&gt;!&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The reality of the life of the code is very different from the literature around it.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;All the reusabilty and other thoughts look good in books. In reality I have hardly seen any code is re-used. This is not to diminish the reusabilty of the code. But only if you &lt;code&gt;code to re-use it&lt;/code&gt; then this is obviously heading towards disaster.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Single knowledge base</title>
       <link>https://saumya.github.io/2021/posts/5/</link>
       <pubDate>Wed, 10 Nov 2021 09:46:30 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/5/</guid>
-      <description>The age old problem which repeats itself is, how to make a single code base for a project which is delivered to multiple platforms?!&#xA;Many tachnologies has come and promised the same thing. The end result is to enter the corporate space. Why!? Money.&#xA;This is the true story of all the technology stacks which promise to have a single codebase. Some really nice technologies has come and stayed for good, some vanished without leaving a trace.</description>
+      <description>&lt;p&gt;The age old problem which repeats itself is, how to make a single code base for a project which is delivered to multiple platforms?!&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Many tachnologies has come and promised the same thing. The end result is to enter the corporate space. Why!? Money.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;This is the true story of all the technology stacks which promise to have a single codebase. Some really nice technologies has come and stayed for good, some vanished without leaving a trace.&lt;/p&gt;</description>
     </item>
     <item>
       <title>React 17. FastRefresh, not HotReload.</title>
       <link>https://saumya.github.io/2021/posts/4/</link>
       <pubDate>Wed, 04 Aug 2021 17:34:35 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/4/</guid>
-      <description>A must upgrade version of React is React 17. I was surprised by the things it brings to the equation.&#xA;I was working on a project which is old. Not so old but kind of not recent also. And we just pushed our production application to live environment.&#xA;At that point I have some time to update the project. So I did. The first upgrade I thought should be the React library itself.</description>
+      <description>&lt;p&gt;A must upgrade version of &lt;a href=&#34;https://reactjs.org/&#34;&gt;React&lt;/a&gt; is React 17.&#xA;I was surprised by the things it brings to the equation.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;I was working on a project which is old. Not so old but kind of not recent also. And we just pushed our production application to live environment.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;At that point I have some time to update the project. So I did. The first upgrade I thought should be the &lt;code&gt;React&lt;/code&gt; library itself. This project was made with &lt;a href=&#34;https://create-react-app.dev/&#34;&gt;create-react-app&lt;/a&gt; and not exited the flow. I was a little worried as to whether to update it or not. Because in past I have maintained a &lt;a href=&#34;https://reactjs.org/&#34;&gt;React&lt;/a&gt; project for some years and knew the pain of upgrading. And this time the project is on &lt;a href=&#34;https://create-react-app.dev/&#34;&gt;create-react-app&lt;/a&gt;. However I took the chance and did upgrade the &lt;code&gt;react-script&lt;/code&gt; and other libraries used in the project manually using &lt;a href=&#34;https://yarnpkg.com/&#34;&gt;yarn&lt;/a&gt;. After all this I was hoping things will break and complain about &lt;code&gt;missing dependencies&lt;/code&gt; and all that.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Project went live.</title>
       <link>https://saumya.github.io/2021/posts/3/</link>
       <pubDate>Sun, 18 Jul 2021 15:35:07 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/3/</guid>
-      <description>For last 5 months, I was working on a new project. Finally it went live last week.&#xA;It is such an experience to be involved in this kind of projects.&#xA;In terms of frontend technology it is React through and through. It was a re-write of the old project. The project has a global reach and directly affects people. Whatever we are doing has a direct effect on the general people.</description>
+      <description>&lt;p&gt;For last 5 months, I was working on a new project. Finally it went live last week.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;It is such an experience to be involved in this kind of projects.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;In terms of frontend technology it is &lt;a href=&#34;https://reactjs.org/&#34;&gt;React&lt;/a&gt; through and through. It was a re-write of the old project. The project has a global reach and directly affects people. Whatever we are doing has a direct effect on the general people. So the feedback loop is very small. We have to be on the edge all the time. Any small UX change has an immediate reaction from the user and reaching us within minutes. It is exciting and lot involved.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hugo &amp; Paths</title>
       <link>https://saumya.github.io/2021/posts/2/</link>
       <pubDate>Thu, 03 Jun 2021 18:21:25 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/2/</guid>
-      <description>Hugo is fast and just works. However there are certain things you must take into consideration while hosting it.&#xA;Till now one thing I came across is the path for css files. Hugo provides template short codes to deal with them.&#xA;The templating system cares for empty spaces in the template.&#xA;You should be extra careful not to put them. For example href=&amp;quot;{{ .Site.BaseURL }}css/2021.css&amp;quot; and href=&amp;quot;{{ .Site.BaseURL }} css/2021.css&amp;quot; are different.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; is fast and just works.&#xA;However there are certain things you must take into consideration while hosting it.&lt;/p&gt;&#xA;&lt;p&gt;Till now one thing I came across is the &lt;code&gt;path&lt;/code&gt; for &lt;code&gt;css&lt;/code&gt; files. &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; provides template short codes to deal with them.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The templating system cares for empty spaces in the template.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;You should be extra careful not to put them.&#xA;For example &lt;code&gt;href=&amp;quot;{{ .Site.BaseURL }}css/2021.css&amp;quot;&lt;/code&gt; and &lt;code&gt;href=&amp;quot;{{ .Site.BaseURL }} css/2021.css&amp;quot;&lt;/code&gt; are different. Can you see there is a space between &lt;code&gt;}}&lt;/code&gt; and &lt;code&gt;css/2021.css&lt;/code&gt; in the second example. These kind of things will break the site or theme or both.&lt;/p&gt;</description>
     </item>
     <item>
       <title>New Again.</title>
       <link>https://saumya.github.io/2021/posts/1/</link>
       <pubDate>Wed, 02 Jun 2021 21:52:12 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/1/</guid>
-      <description>A long wait is finally over.&#xA;For a long long time I was lazy and was avoiding the work. But here it is.&#xA;Moved to the Hugo Engine from Wintersmith Engine.&#xA;Never thought I will continue this way. But this is good to start over and over again. This is life if one wants to live. Re-start, Re-build, Re-structure and keep living.&#xA;The last blog is here for the new visitors here.</description>
+      <description>&lt;p&gt;A long wait is finally over.&lt;/p&gt;&#xA;&lt;p&gt;For a long long time I was lazy and was avoiding the work. But here it is.&lt;/p&gt;&#xA;&lt;p&gt;Moved to the &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo Engine&lt;/a&gt; from &lt;a href=&#34;http://wintersmith.io/&#34;&gt;Wintersmith Engine&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Never thought I will continue this way. But this is good to start over and over again. This is life if one wants to live. Re-start, Re-build, Re-structure and keep living.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;http://saumya.github.io/ray/&#34;&gt;last blog is here&lt;/a&gt; for the new visitors here.&lt;/p&gt;&#xA;&lt;p&gt;For last some years my frequency of blogging was slower than usual. That was another reason, why I was not putting effort on upgrading to new engine. Somehow things are moving in a different direction. That made me think, if I am going to do it anyway, why not now. So the upgrade. And with this, I have released the &lt;a href=&#34;https://github.com/saumya/saumya_go_walk&#34;&gt;theme(GoWalk) of this site as opensource&lt;/a&gt;. It is simple and open, customise it and use it, if you want.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

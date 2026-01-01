@@ -25,6 +25,33 @@
       <div class="summary-point">
 
   <div class="summary-topic-point">
+    <div class="txt-big-1">1</div>
+    <div>Jan, 2026</div>
+    <div class="txt-sm-1">1 Minutes</div>
+  </div>
+
+  <div class="">
+    <a href="https://saumya.github.io/2021/posts/41/">
+      <div class="summary-title">
+        Ubuntu and Snaps
+      </div>
+    </a>
+    <div class="summary-description">
+      <p>For a casual use, <code>Snaps</code> seem good. Once it gets regular updates, it becomes obvious that it needs maintainance too.</p>
+<blockquote>
+<p>Unlike the <code>.deb</code> packages, these things keep on installing all the dependent packages along with the update.</p></blockquote>
+<p>The main reason I dig into this is for slowness I found while using <code>Snap</code> for all the things. Sublime, VS Code and Chromium, VLC etc; all these I was running at the same time.</p>
+    </div>
+  </div>
+
+
+
+</div>
+
+    
+      <div class="summary-point">
+
+  <div class="summary-topic-point">
     <div class="txt-big-1">26</div>
     <div>Sep, 2025</div>
     <div class="txt-sm-1">4 Minutes</div>
@@ -37,7 +64,7 @@
       </div>
     </a>
     <div class="summary-description">
-      I generally prefer to stay on the stable versions of Linux and keep on doing the work on the same system. Tried Ubuntu and got used to it. Never bothered to install a second distro for work. The configurations to Ubuntu also as per my work requirements. This whole disro-hop thing is never my thing. Though on side, I use to see what is happening in that space. Configuring or ricing as it is said now, is also seems too much for me.
+      <p>I generally prefer to stay on the stable versions of Linux and keep on doing the work on the same system. Tried <a href="https://ubuntu.com/">Ubuntu</a> and got used to it. Never bothered to install a second distro for work. The configurations to <a href="https://ubuntu.com/">Ubuntu</a> also as per my work requirements. This whole disro-hop thing is never my thing. Though on side, I use to see what is happening in that space. Configuring or ricing as it is said now, is also seems too much for me.</p>
     </div>
   </div>
 
@@ -61,10 +88,13 @@
       </div>
     </a>
     <div class="summary-description">
-      Seems like a known bug.
-Upgrade from 22.04 LTS to 24.04 LTS and the connection to internet is broken
-In my case, I upgraded to 24.04.1. The bug still is there. The fix I do is from this place. I have to do it almost every time I open the OS.
-sudo rm /etc/resolv.confsudo dhcpcd Now as mentioned in the post internet is back but the icon on the taskbar is still broken.
+      <p>Seems like a known bug.</p>
+<blockquote>
+<p>Upgrade from 22.04 LTS to 24.04 LTS and the connection to internet is broken</p></blockquote>
+<p>In my case, I upgraded to 24.04.1. The bug still is there. The fix I do is from <a href="https://askubuntu.com/a/1530964">this place</a>. I have to do it almost every time I open the OS.</p>
+<pre tabindex="0"><code>sudo rm /etc/resolv.conf
+sudo dhcpcd
+</code></pre><p>Now as <a href="https://askubuntu.com/a/1530964">mentioned in the post</a> internet is back but the icon on the taskbar is still broken. To fix this UI, this is the command.</p>
     </div>
   </div>
 
@@ -88,10 +118,11 @@ sudo rm /etc/resolv.confsudo dhcpcd Now as mentioned in the post internet is ba
       </div>
     </a>
     <div class="summary-description">
-      The latest LTS release of Ubuntu, 24.04 is having a very unstable installer.
-I could install it from the installer in some machines without any problem.
-However, the installer simply is a UI only update. On the UX side it fails completely. Seems there is no error handling done. On simplest of things, the installer just shuts down.
-On one of my laptops, I find it is very difficult to go forword with installation.
+      <p>The latest LTS release of Ubuntu, 24.04 is having a very unstable installer.</p>
+<blockquote>
+<p>I could install it from the installer in some machines without any problem.</p></blockquote>
+<p>However, the installer simply is a UI only update. On the UX side it fails completely. Seems there is no error handling done. On simplest of things, the installer just shuts down.</p>
+<p>On one of my laptops, I find it is very difficult to go forword with installation. Made an attempt to install the previous version of Ubuntu, which is 22.04 and it went smooth.</p>
     </div>
   </div>
 
@@ -115,10 +146,12 @@ On one of my laptops, I find it is very difficult to go forword with installatio
       </div>
     </a>
     <div class="summary-description">
-      React Native still is and better than ever the toolchain for crossplatform application development. As usual the new version React Native toolchain keeps on changing. The documentation of the toolchain also keeps on changing(they call it evolving, not me).
-Starting a new project is now done as this
-npx @react-native-community/cli init MyNewReactNativeApp For a particular version of React Native, the command is like this.
-npx @react-native-community/cli init MyApp --version &#34;0.75&#34; This is basically using the community cli
+      <p><a href="https://reactnative.dev/">React Native</a> still is and better than ever the toolchain for crossplatform application development. As usual the new version React Native toolchain keeps on changing. The documentation of the toolchain also keeps on changing(<del>they call it evolving</del>, not me).</p>
+<p>Starting a new project is now done as this</p>
+<pre tabindex="0"><code>npx @react-native-community/cli init MyNewReactNativeApp
+</code></pre><p>For a particular version of React Native, the command is like this.</p>
+<pre tabindex="0"><code>npx @react-native-community/cli init MyApp --version &#34;0.75&#34;
+</code></pre><p>This is basically using the <a href="https://github.com/react-native-community/cli">community cli</a></p>
     </div>
   </div>
 
@@ -142,10 +175,15 @@ npx @react-native-community/cli init MyApp --version &#34;0.75&#34; This is basi
       </div>
     </a>
     <div class="summary-description">
-      In package.json there is a script section. From here one can run NPM Scripts.
-&#34;scripts&#34;: {&#34;one&#34;: &#34;scriptOne.js&#34;,&#34;two&#34;: &#34;scriptTwo.js&#34;} These can be run like this.
-npm run one This particular line will run scriptOne.js. This is powerful as we could take Node&rsquo;s power and run any automated task for ourselves.
-At first this seemed simple to me. Soon I came across cross-platform bugs. Since we are writing this in JS, it could be run anywhere Node is available.
+      <p>In <code>package.json</code> there is a <code>script</code> section. From here one can run NPM Scripts.</p>
+<pre tabindex="0"><code>&#34;scripts&#34;: {
+	&#34;one&#34;: &#34;scriptOne.js&#34;,
+	&#34;two&#34;: &#34;scriptTwo.js&#34;
+}
+</code></pre><p>These can be run like this.</p>
+<pre tabindex="0"><code>npm run one
+</code></pre><p>This particular line will run <code>scriptOne.js</code>. This is powerful as we could take Node&rsquo;s power and run any automated task for ourselves.</p>
+<p>At first this seemed simple to me. Soon I came across cross-platform bugs. Since we are writing this in <code>JS</code>, it could be run anywhere <code>Node</code> is available. Now that could be a tricky thing. Some environments deal with certain things in a certain way. This is not a big thing if the script is written to handle those situations. Another thing is <code>Node</code> versions. If the script is written using certain API of a particular <code>Node</code> version, it is better to keep an eye on new releases of Node and update the script if there are breaking changes.</p>
     </div>
   </div>
 
@@ -169,8 +207,8 @@ At first this seemed simple to me. Soon I came across cross-platform bugs. Since
       </div>
     </a>
     <div class="summary-description">
-      We will be talking about Windows 11 and NeoVIM. It can be seen as general Windows not specific to Windows 11, since I have done it in Windows 11, thought would mention it here in order to avoid the confusion.
-On Windows machines I avoided configuring or even using NeoVIM. Thought it would be much more painful here as compared to Linux. So started using NeoVIM on WSL. Configured and ready within a couple of minutes as that is basically all Linux.
+      <p>We will be talking about Windows 11 and NeoVIM. It can be seen as general Windows not specific to Windows 11, since I have done it in Windows 11, thought would mention it here in order to avoid the confusion.</p>
+<p>On Windows machines I avoided configuring or even using NeoVIM. Thought it would be much more painful here as compared to Linux. So started using NeoVIM on WSL. Configured and ready within a couple of minutes as that is basically all Linux. Then I thought, let me try on Windows once and that would be final. If it runs fine if not better. It seemed the people at NeoVIM has made it clear that this thing is for everyone, including Windows people.</p>
     </div>
   </div>
 
@@ -194,9 +232,9 @@ On Windows machines I avoided configuring or even using NeoVIM. Thought it would
       </div>
     </a>
     <div class="summary-description">
-      Configuring NeoVIM is straight forward. All one need to know is, where to put what.
-Here is a list of references to get started with it.
-For me, it was not difficult as I just needed a decent text editor with a file tree. All I did is pull the respective github repos into the folder and call them from init,lua. This is nice and fine but since the configuration is too easy and Lua just feels good to play with, thinking of confuguring it further and play with plugin managers.
+      <p>Configuring NeoVIM is straight forward. All one need to know is, where to put what.</p>
+<p>Here is a <a href="#reference-readings">list of references</a> to get started with it.</p>
+<p>For me, it was not difficult as I just needed a decent text editor with a file tree. All I did is pull the respective github repos into the folder and call them from <code>init,lua</code>. This is nice and fine but since the configuration is too easy and <code>Lua</code> just feels good to play with, thinking of confuguring it further and play with plugin managers.</p>
     </div>
   </div>
 
@@ -220,8 +258,8 @@ For me, it was not difficult as I just needed a decent text editor with a file t
       </div>
     </a>
     <div class="summary-description">
-      I never thought, the day will come! The story of VIM addiction and NeoVIM adoption.
-In search of a code editor which is available everywhere, from Desktop to servers, I accidentally got used to vi some years back. I had to edit some files on the server or they call it Cloud, the only editor available there was vi. I just used it and forgot it as it was not even close to anything that modern code editors offer.
+      <p>I never thought, the day will come! The story of <a href="https://www.vim.org/">VIM</a> addiction and <a href="https://neovim.io/">NeoVIM</a> <a href="#neovim-and-ubuntu">adoption</a>.</p>
+<p>In search of a code editor which is available everywhere, from Desktop to servers, I accidentally got used to <code>vi</code> some years back. I had to edit some files on the server or they call it <code>Cloud</code>, the only editor available there was <code>vi</code>. I just used it and forgot it as it was not even close to anything that modern code editors offer.</p>
     </div>
   </div>
 
@@ -245,13 +283,16 @@ In search of a code editor which is available everywhere, from Desktop to server
       </div>
     </a>
     <div class="summary-description">
-      Is it a library or a framework?!
-Do not know, but everyone is using it.
-Must be good.
-Hype Driven Development.
-It should be a known story for experienced developers. For new developers it is alright to start here.
-The problem is never the tool itself. How it is been used, the implementation details. That is the place, where it matters.
-During the last days of FlashPlayer, the company and the community both jumped into Flex, the framework and the tool-chain to say, everything can be fixed with it!
+      <p>Is it a library or a framework?!</p>
+<blockquote>
+<p>Do not know, but everyone is using it.</p></blockquote>
+<p>Must be good.</p>
+<blockquote>
+<p>Hype Driven Development.</p></blockquote>
+<p>It should be a known story for experienced developers. For new developers it is alright to start here.</p>
+<blockquote>
+<p>The problem is never the tool itself. How it is been used, the implementation details. That is the place, where it matters.</p></blockquote>
+<p>During the last days of FlashPlayer, the company and the community both jumped into Flex, the framework and the tool-chain to say, <code>everything can be fixed with it</code>! Any and all problems seemed just not enough for Flex. It can do this, it can do that and the story went on. This is what happens when <code>you try to please the corporates</code>. FlashPlayer and Flash IDE are still the best ones out there for a creative and interactive experience. This can not be said for Flex, which is a corporate pleasing Framework / tool chain on top of FlashPlayer. Un/Fortunately the whole Flex thing went down and took Flash with it.</p>
     </div>
   </div>
 
@@ -275,8 +316,8 @@ During the last days of FlashPlayer, the company and the community both jumped i
       </div>
     </a>
     <div class="summary-description">
-      Installing Linux side by side on a Windows machine, was and still is simple.
-However, now a days there is one more / extra step before installing Linux(specifically Ubuntu) on a Windows machine. Now a days the hardware and the boot option comes with a setting called Secure Boot. This option is by default it is enabled for a new laptop running on Windows 11. This is to make the system secure at boot level and Windows 11 requires this option to be available in order to be installed on the system.
+      <p>Installing Linux side by side on a Windows machine, was and still is simple.</p>
+<p>However, now a days there is one more / extra step before installing Linux(specifically Ubuntu) on a Windows machine. Now a days the hardware and the boot option comes with a setting called <code>Secure Boot</code>. This option is by default it is enabled for a new laptop running on Windows 11. This is to make the system secure at boot level and Windows 11 requires this option to be available in order to be installed on the system.</p>
     </div>
   </div>
 
@@ -300,8 +341,8 @@ However, now a days there is one more / extra step before installing Linux(speci
       </div>
     </a>
     <div class="summary-description">
-      I always knew this from my experience that, Windows, the OS is broken in a lot of ways for development. However, once I shifted out of it never thought about it. In a recent turn of events, I am back in a Windows Machine for ReactNative development. And the old ghosts are back alive! Tried a lot of things, but the old trick did the job for me.
-In my project, I was constantly getting this error while building for Android.
+      <p>I always knew this from my experience that, <code>Windows, the OS is broken</code> in a lot of ways for development. However, once I shifted out of it never thought about it. In a recent turn of events, I am back in a <code>Windows Machine</code> for ReactNative development. And the old ghosts are back alive! Tried a lot of things, but the old trick did the job for me.</p>
+<p>In my project, I was constantly getting this error while building for Android.</p>
     </div>
   </div>
 
@@ -325,9 +366,10 @@ In my project, I was constantly getting this error while building for Android.
       </div>
     </a>
     <div class="summary-description">
-      For sometime now, I was searching for an alternative for Go. While the language itself is nice and I am productive with it, there are reasons to look elsewhere.
-Now stared with Zig.
-While working with Go, I thought there could not be simpler thing than this. Installation is smooth, works on every platform and fast. Infact this blog runs on Hugo, which runs on Go. But lately there are data mining and other corporate politics is happening in that space.
+      <p>For sometime now, I was searching for an alternative for <a href="https://go.dev/">Go</a>. While the language itself is nice and I am productive with it, there are reasons to look elsewhere.</p>
+<blockquote>
+<p>Now stared with <a href="https://ziglang.org">Zig</a>.</p></blockquote>
+<p>While working with <a href="https://go.dev/">Go</a>, I thought there could not be simpler thing than this. Installation is smooth, works on every platform and fast. Infact this blog runs on <a href="https://gohugo.io/">Hugo</a>, which runs on <a href="https://go.dev/">Go</a>. But lately there are data mining and other corporate politics is happening in that space. After all Google!</p>
     </div>
   </div>
 
@@ -351,9 +393,14 @@ While working with Go, I thought there could not be simpler thing than this. Ins
       </div>
     </a>
     <div class="summary-description">
-      This is addition to the last two posts regarding Yarn.
-Setting different Yarn versions in Ubuntu / Linux Working with YARN Now after working with it for more than 2 years, it feels that Yarn 1 is more useful. Though, technically Yarn 2 has all the best intentions and implementations, there are situations where Yarn 1 just works.
-How to remove Yarn 2 completely from Ubuntu I am using NVM for managing different NodeJS versions.
+      <p>This is addition to the last two posts regarding <a href="https://yarnpkg.com/">Yarn</a>.</p>
+<ul>
+<li><a href="../12">Setting different Yarn versions in Ubuntu / Linux</a></li>
+<li><a href="../21">Working with YARN</a></li>
+</ul>
+<p>Now after working with it for more than 2 years, it feels that <a href="https://classic.yarnpkg.com/">Yarn 1</a> is more useful. Though, technically <a href="https://yarnpkg.com/">Yarn 2</a> has all the best intentions and implementations, there are situations where <a href="https://classic.yarnpkg.com/">Yarn 1</a> just works.</p>
+<h3 id="how-to-remove-yarn-2yarn-completely-from-ubuntu">How to remove <a href="https://yarnpkg.com/">Yarn 2</a> completely from Ubuntu</h3>
+<p>I am using <a href="https://github.com/nvm-sh/nvm">NVM</a> for managing different <a href="https://nodejs.org/en">NodeJS</a> versions. So the removing of some files and folders may be different in terms of their <code>path</code>. However overall it will be the same process if one has installed <a href="https://yarnpkg.com/">Yarn</a> on a standalone <a href="https://nodejs.org/en">NodeJS</a> installation.</p>
     </div>
   </div>
 
@@ -377,9 +424,10 @@ How to remove Yarn 2 completely from Ubuntu I am using NVM for managing differen
       </div>
     </a>
     <div class="summary-description">
-      I was holding myself from saying anything about it for last two and half years. The incredible journey to the release of the first product and now the second product is online to the global audience.
-The team is beautiful. Fast. To the point. Remote.
-It is an honor to work with the team. While serving the world and releasing updates, it never felt anyone is down. Energy is high and flowing.
+      <p>I was holding myself from saying anything about it for last two and half years. The incredible journey to the release of the first product and now the second product is online to the global audience.</p>
+<blockquote>
+<p>The team is beautiful. Fast. To the point. Remote.</p></blockquote>
+<p>It is an honor to work with the team. While serving the world and releasing updates, it never felt anyone is down. Energy is high and flowing. The high efficient machine.</p>
     </div>
   </div>
 
@@ -403,9 +451,11 @@ It is an honor to work with the team. While serving the world and releasing upda
       </div>
     </a>
     <div class="summary-description">
-      In my last post I talked about the problem with Ubuntu 23.04.
-While my laptop was workable but not optimal. I could not controll the brightness of the screen. I was hoping Ubuntu will fix this with an update. And that is what has happened.
-sudo apt updatesudo apt upgrade Those two are not new to any Ubuntu user. But with these two, Ubuntu got the fix for the brightness control problem.
+      <p>In my last post I talked about the problem with Ubuntu 23.04.</p>
+<p>While my laptop was workable but not optimal. I could not controll the brightness of the screen. I was hoping Ubuntu will fix this with an update. And that is what has happened.</p>
+<pre tabindex="0"><code>sudo apt update
+sudo apt upgrade
+</code></pre><p>Those two are not new to any Ubuntu user. But with these two, Ubuntu got the fix for the brightness control problem. There might be other fixes too. For me, I got the things I was waiting for.</p>
     </div>
   </div>
 
@@ -429,9 +479,10 @@ sudo apt updatesudo apt upgrade Those two are not new to any Ubuntu user. But w
       </div>
     </a>
     <div class="summary-description">
-      I updated my machine to Ubuntu 23.04.
-There are so many things which are just smoother to work with.
-The system itself, seems to be faster. I think this is because Snaps just start instantly! I did not believe this for the fist time! This one is the best thing to happen in my opinion. I have tried opening everything that should take sometime to open, but no the just open instantly.
+      <p>I updated my machine to Ubuntu 23.04.</p>
+<blockquote>
+<p>There are so many things which are just smoother to work with.</p></blockquote>
+<p>The system itself, seems to be faster. I think this is because Snaps just start instantly! I did not believe this for the fist time! This one is the best thing to happen in my opinion. I have tried opening everything that should take sometime to open, but no the just open instantly.</p>
     </div>
   </div>
 
@@ -455,9 +506,10 @@ The system itself, seems to be faster. I think this is because Snaps just start 
       </div>
     </a>
     <div class="summary-description">
-      This is about implementing an idea and seeing it in the market.
-Jump into it. Give it all that you have and see.
-There is a huge difference between just sitting in the side and validating something or putting the effort to actully make it. As I see it, failed in terms of market and money is fine. But that gives immense idea about the reality of the world. If you know to code, making a software product is easy.
+      <p>This is about implementing an idea and seeing it in the market.</p>
+<blockquote>
+<p>Jump into it. Give it all that you have and see.</p></blockquote>
+<p>There is a huge difference between just sitting in the side and validating something or putting the effort to actully make it. As I see it, failed in terms of market and money is fine. But that gives immense idea about the reality of the world. If you know to code, making a software product is easy. Very easy. Do it and see.</p>
     </div>
   </div>
 
@@ -481,9 +533,10 @@ There is a huge difference between just sitting in the side and validating somet
       </div>
     </a>
     <div class="summary-description">
-      Namaskaram.
-It happened last week, Inner Engineering Completion in person program, near me. Personally, it was a long wait to be a part of this event in person. Never thought, it would be such a surprise to me! Overall it was as usual, pleasant and smooth with high energy flowing all-around. I bow down to all the volunteers, who brought it here.
-Being a Volunteer in the event has a different meaning altogether.
+      <p>Namaskaram.</p>
+<p>It happened last week, <a href="https://innerengineering.sadhguru.org/completion">Inner Engineering Completion</a> in person program, near me. Personally, it was a long wait to be a part of this event in person. Never thought, it would be such a surprise to me! Overall it was as usual, pleasant and smooth with high energy flowing all-around. I <code>bow down to all the volunteers</code>, who brought it here.</p>
+<blockquote>
+<p>Being a Volunteer in the event has a different meaning altogether.</p>
     </div>
   </div>
 
@@ -507,10 +560,11 @@ Being a Volunteer in the event has a different meaning altogether.
       </div>
     </a>
     <div class="summary-description">
-      What is the big deal?! It should work.
-Yep, it is true.
-The deal is, who takes the instructions seriously.
-I am talking in general here. Once you accept something as valuable, a book or a guide, then taking it as instructed makes a whole difference. Problem arises when one becomes a little casual about the instructions of value. Then it does not matter, what are you doing, there will not be desired result.
+      <p>What is the big deal?! It should work.</p>
+<p>Yep, it is true.</p>
+<blockquote>
+<p>The deal is, who takes the instructions seriously.</p></blockquote>
+<p>I am talking in general here. Once you accept something as valuable, a book or a guide, then taking it as instructed makes a whole difference. Problem arises when one becomes a little casual about the instructions of value. Then it does not matter, what are you doing, there will not be desired result.</p>
     </div>
   </div>
 
@@ -534,8 +588,8 @@ I am talking in general here. Once you accept something as valuable, a book or a
       </div>
     </a>
     <div class="summary-description">
-      This is always the case. It is always OR never AND.
-There are talks about how technology is the key to a successful product. May be it is true in the beginning, till one has to maintain it. Almost all successful products in the market are not of the latest technolgy. There are some parts of it is new technology, but majority is old, very old. The technology they use are once new, but now it is old and that is ok.
+      <p>This is always the case. It is always <code>OR</code> never <code>AND</code>.</p>
+<p>There are talks about how technology is the key to a successful product. May be it is true in the beginning, till one has to maintain it. Almost all successful products in the market are not of the latest technolgy. There are some parts of it is new technology, but majority is old, very old. The technology they use are once new, but now it is old and that is ok. No one cares what the technology it uses behind the scenes. As long as it solves the purpose, it is fine.</p>
     </div>
   </div>
 
@@ -559,9 +613,12 @@ There are talks about how technology is the key to a successful product. May be 
       </div>
     </a>
     <div class="summary-description">
-      Working in Yarn was a little involved. That is Yarn version 1. One has to play around with Node and NPM to make things setup. With Yarn version 2 and above, this is mostly done by Node and a new utility called corepack.
-Now, Yarn does not need to be installed as a global package. Yarn can be enabled for individual projects (individual folders).
-The corepack enable is all there is to it.
+      <p>Working in <a href="https://classic.yarnpkg.com/lang/en/">Yarn</a> was a little involved. That is <a href="https://classic.yarnpkg.com/lang/en/">Yarn</a> version 1. One has to play around with Node and NPM to make things setup. With <a href="https://yarnpkg.com/">Yarn</a> version 2 and above, this is mostly done by Node and a new utility called <code>corepack</code>.</p>
+<p>Now, <a href="https://yarnpkg.com/">Yarn</a> does not need to be installed as a global package. <a href="https://yarnpkg.com/">Yarn</a> can be enabled for individual projects (individual folders).</p>
+<blockquote>
+<p>The <code>corepack enable</code> is all there is to it.</p></blockquote>
+<p>Open the command prompt and move to the folder, where <code>Yarn</code> is needed.
+Once there, either initialise an empty Yarn project. That will takecare of everything.</p>
     </div>
   </div>
 
@@ -585,11 +642,18 @@ The corepack enable is all there is to it.
       </div>
     </a>
     <div class="summary-description">
-      Updating a state in React looks something like below.
-const [count, setCount] = useState(0)setCount(5) Here the new value of the count is provided to setCount. That updates the state of count to its new value.
-This is the most used form of the state update.
-However, there is another form of this functionality. This looks like below.
-setState( previousState=&gt;{// Do Something with Previous Data// And return the newly created Datareturn( newState )} ) So the code setCount(5) will become like below.
+      <p>Updating a state in <a href="https://reactjs.org/">React</a> looks something like below.</p>
+<pre tabindex="0"><code>	const [count, setCount] = useState(0)
+	setCount(5)
+</code></pre><p>Here the new value of the <code>count</code> is provided to <code>setCount</code>. That updates the <code>state</code> of <code>count</code> to its new value.</p>
+<p>This is the most used form of the <code>state</code> update.</p>
+<p>However, there is another form of this functionality. This looks like below.</p>
+<pre tabindex="0"><code>	setState( previousState=&gt;{
+		// Do Something with Previous Data
+		// And return the newly created Data
+		return( newState )
+		} )
+</code></pre><p>So the code <code>setCount(5)</code> will become like below.</p>
     </div>
   </div>
 
@@ -613,10 +677,26 @@ setState( previousState=&gt;{// Do Something with Previous Data// And return t
       </div>
     </a>
     <div class="summary-description">
-      The game of React is in its components. Almost everything here is a component. Sooner or later the need to pass properties to components will arise. This is straight forward as we know like this.
-&lt;MyComp myTitle=&#39;Nice Component&#39; /&gt; Inside component we can access this with props.myTitle.
-const MyComp = (props)=&gt;{	return(&lt;div&gt;{ props.myTitle }&lt;/div&gt;)} This can also be written as below.
-const MyComp = ( {myTitle} )=&gt;{	return(&lt;div&gt;{ myTitle }&lt;/div&gt;)} There is a nice magic props that React has, on all the components.
+      <p>The game of <a href="https://reactjs.org/">React</a> is in its components. Almost everything here is a component.  Sooner or later the need to pass properties to components will arise. This is straight forward as we know like this.</p>
+<pre tabindex="0"><code>&lt;MyComp myTitle=&#39;Nice Component&#39; /&gt;
+</code></pre><p>Inside component we can access this with <code>props.myTitle</code>.</p>
+<pre tabindex="0"><code>const MyComp = (props)=&gt;{	
+	return(
+		&lt;div&gt;
+			{ props.myTitle }
+		&lt;/div&gt;
+	)
+}
+</code></pre><p>This can also be written as below.</p>
+<pre tabindex="0"><code>const MyComp = ( {myTitle} )=&gt;{	
+	return(
+		&lt;div&gt;
+			{ myTitle }
+		&lt;/div&gt;
+	)
+}
+</code></pre><blockquote>
+<p>There is a nice magic <code>props</code> that <a href="https://reactjs.org/">React</a> has, on all the components. That is known as <code>props.children</code>.</p>
     </div>
   </div>
 
@@ -640,9 +720,10 @@ const MyComp = ( {myTitle} )=&gt;{	return(&lt;div&gt;{ myTitle }&lt;/div&gt;
       </div>
     </a>
     <div class="summary-description">
-      React defines and speculates about how to manage code files for components. There are so many documentation and tools available as per the best practices and perfect scenaios. However as per my experience no perfect scenario ever worked for any individual or company.
-There is difference between perfect scenario and working scenario.
-While everyone should try to stick to the best practices and perfect scenarios, it is a perpetual job. It never ends.
+      <p><a href="https://reactjs.org/">React</a> defines and speculates about how to manage code files for components. There are so many documentation and tools available as per the best practices and perfect scenaios. However as per my experience <code>no perfect scenario</code> ever worked for any individual or company.</p>
+<blockquote>
+<p>There is difference between perfect scenario and working scenario.</p></blockquote>
+<p>While everyone should try to stick to the best practices and perfect scenarios, it is a perpetual job. It never ends. Cause may be anything, but it never gets complete. There exists a working scenario.</p>
     </div>
   </div>
 
@@ -666,8 +747,8 @@ While everyone should try to stick to the best practices and perfect scenarios, 
       </div>
     </a>
     <div class="summary-description">
-      My working machine is a Linux machine for some years now.
-I never felt this kind of freedom and productive before. Now I can say it is even better than MacOS in terms of developer freedom and easiness. It is better than Windows in terms of GUI applications. The time has gone when Linux used to be command only. Today the GUI applications are much better in Linux than Windows.
+      <p>My working machine is a <code>Linux</code> machine for some years now.</p>
+<p>I never felt this kind of freedom and productive before. Now I can say it is even better than <code>MacOS</code> in terms of developer freedom and easiness. It is better than <code>Windows</code> in terms of GUI applications. The time has gone when <code>Linux</code> used to be command only. Today the GUI applications are much better in Linux than Windows.</p>
     </div>
   </div>
 
@@ -691,10 +772,10 @@ I never felt this kind of freedom and productive before. Now I can say it is eve
       </div>
     </a>
     <div class="summary-description">
-      SVG is fine jsut to know it as an image format.
-However, to deal with SVG on a web application as a developer is a different thing. SVG is too generic for better or worse as Javascript. Unless you know your way through it, it might seem confusing or easy.
-First is there are many ways to include SVG in web.
-The basic is just the tag itself. It is a valid HTML tag.
+      <p><a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg">SVG</a> is fine jsut to know it as an image format.</p>
+<p>However, to deal with SVG on a web application as a developer is a different thing. <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg">SVG</a> is too generic for better or worse as Javascript. Unless you know your way through it, it might seem confusing or easy.</p>
+<p>First is there are many ways to include <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg">SVG</a> in web.</p>
+<p>The basic is just the tag itself. It is a valid HTML tag. So basically the SVG thing can be added inside an HTML page as tags like <code>div</code> and <code>span</code>.</p>
     </div>
   </div>
 
@@ -718,9 +799,10 @@ The basic is just the tag itself. It is a valid HTML tag.
       </div>
     </a>
     <div class="summary-description">
-      Installing a VIM plugin in Ubuntu is not that complicated as it used to be. All one has to do is put the plugin in a proper folder. However, do not confuse yourself VIM with VI. By default Ubuntu comes installed with VI and not VIM. Even if you put the VIM plugin in the proper place, it will not reflect in this editor.
-First install VIM.
-For Ubuntu it is just sudo apt install vim.
+      <p>Installing a <code>VIM</code> plugin in Ubuntu is not that complicated as it used to be. All one has to do is put the plugin in a proper folder. However, do not confuse yourself <code>VIM</code> with <code>VI</code>. By default Ubuntu comes installed with <code>VI</code> and not <code>VIM</code>. Even if you put the <code>VIM</code> plugin in the proper place, it will not reflect in this editor.</p>
+<blockquote>
+<p>First install <a href="https://www.vim.org/">VIM</a>.</p></blockquote>
+<p>For Ubuntu it is just <code>sudo apt install vim</code>. This is the critical step. Next is <code>NERDTree</code> a popular plugin and a must have for any <code>VIM</code> user. The path to put a plugin for NERDTree is similar as</p>
     </div>
   </div>
 
@@ -744,7 +826,7 @@ For Ubuntu it is just sudo apt install vim.
       </div>
     </a>
     <div class="summary-description">
-      In the noisy space of Javascript and Javascript Frameworks, this one is nice and quiet. The simplicity of this framework dragged me into it. This happens to me for a new framework which does the thing and keeps it simple. Same thing happened to me when React came in. Appart from its corporate backing, it did work for a couple of years. As usual slowly complexity built arround it. I am afraid Alpine might go that route.
+      <p>In the noisy space of Javascript and Javascript Frameworks, this one is nice and quiet. The simplicity of this framework dragged me into it. This happens to me for a new framework which does the thing and keeps it simple. Same thing happened to me when <a href="https://reactjs.org/">React</a> came in. Appart from its corporate backing, it did work for a couple of years. As usual slowly complexity built arround it. I am afraid <a href="https://alpinejs.dev/">Alpine</a> might go that route. But till then let&rsquo;s enjoy it.</p>
     </div>
   </div>
 
@@ -768,11 +850,12 @@ For Ubuntu it is just sudo apt install vim.
       </div>
     </a>
     <div class="summary-description">
-      Python is powerful like anyother programming language. However the simplicity of it makes it more beautiful.
-I was trying to automate some of my tasks and this needed copying of a folder with all its files and folders and files inside those folders to a new location. With Python it just took some lines and the task is done!
-import shutil
-shutil.copytree(source_folder, destination_folder, dirs_exist_ok = True)
-The shutil is a utility to deal with file operations.
+      <p>Python is powerful like anyother programming language. However the simplicity of it makes it more beautiful.</p>
+<p>I was trying to automate some of my tasks and this needed copying of a folder with all its files and folders and files inside those folders to a new location. With Python it just took some lines and the task is done!</p>
+<blockquote>
+<p>import shutil<br>
+shutil.copytree(source_folder, destination_folder, dirs_exist_ok = True)</p></blockquote>
+<p>The <a href="https://docs.python.org/3/library/shutil.html">shutil</a> is a utility to deal with file operations. The trick here is <code>dirs_exist_ok</code> parameter. The official document says it is a new addition in version 3.8.</p>
     </div>
   </div>
 
@@ -796,12 +879,14 @@ The shutil is a utility to deal with file operations.
       </div>
     </a>
     <div class="summary-description">
-      This should be a one liner as per the Yarn Docs.
-It doesnot work always like that.
-The problem This happens if you have installed the latest version of Yarn. Then and only then one can change Yarn versions. After installing the latest version of Yarn, we can use the old version by setting Yarn to older version.
-yarn set version classic
-The classic version is 1.x version.
-At this point we are good for our projects which use Yarn version 1.
+      <p>This should be a one liner as per the <a href="https://yarnpkg.com/cli/set/version">Yarn Docs</a>.</p>
+<p>It doesnot work always like that.</p>
+<h2 id="the-problem">The problem</h2>
+<p>This happens if you have installed the latest version of <a href="https://yarnpkg.com/getting-started/install">Yarn</a>. Then and only then one can change <code>Yarn</code> versions. After installing the latest version of <code>Yarn</code>, we can use the old version by setting Yarn to older version.</p>
+<blockquote>
+<p>yarn set version classic</p></blockquote>
+<p>The <code>classic</code> version is <code>1.x</code> version.</p>
+<p>At this point we are good for our projects which use <code>Yarn</code> version 1.x.</p>
     </div>
   </div>
 
@@ -825,8 +910,14 @@ At this point we are good for our projects which use Yarn version 1.
       </div>
     </a>
     <div class="summary-description">
-      The thing is, Apple does not care about anything else but money.
-Apple products are good. They work as Apple expects them to work. People just follow along and pride themselves for having an Apple device. The products die when Apple wants them to die. Now my device, MacBookPro which is still good in terms of Hardware, Apple software does not get updated in this. As per Apple the device needs an upgrade.
+      <p>The thing is, Apple does not care about anything else but money.</p>
+<ul>
+<li>Apple products are good.</li>
+<li>They work as Apple expects them to work.</li>
+<li>People just follow along and pride themselves for having an Apple device.</li>
+<li>The products die when Apple wants them to die.</li>
+</ul>
+<p>Now my device, MacBookPro which is still good in terms of Hardware, Apple software does not get updated in this. As per Apple the device needs an upgrade. Well that is when I thought of other options. I am definitely not going to get another Apple developer machine. I brought this one to learn <code>ObjectiveC</code> and later it helped me learn <code>Swift</code>. That is all and that is done.</p>
     </div>
   </div>
 
@@ -850,10 +941,11 @@ Apple products are good. They work as Apple expects them to work. People just fo
       </div>
     </a>
     <div class="summary-description">
-      Powerline is a wonderful utility apart from visually pleasing shell prompts.
-In the early days it was a whole lot of effort to install and apply it to Linux / Ubuntu. However the situations have changed. Now it is
-sudo apt install powerline and there you have it.
-Now to add this to Fish, the best way is to use Oh My Fish. Once Oh My Fish is installed, enable bobthefish theme.
+      <p><a href="https://github.com/powerline/powerline">Powerline</a> is a wonderful utility apart from visually pleasing shell prompts.</p>
+<p>In the early days it was a whole lot of effort to install and apply it to Linux / Ubuntu. However the situations have changed. Now it is</p>
+<pre tabindex="0"><code>sudo apt install powerline
+</code></pre><p>and there you have it.</p>
+<p>Now to add this to <a href="https://fishshell.com/">Fish</a>, the best way is to use <a href="https://github.com/oh-my-fish/oh-my-fish">Oh My Fish</a>. Once <a href="https://github.com/oh-my-fish/oh-my-fish">Oh My Fish</a> is installed, enable <code>bobthefish</code> theme. This can be done by using the command below.</p>
     </div>
   </div>
 
@@ -877,10 +969,13 @@ Now to add this to Fish, the best way is to use Oh My Fish. Once Oh My Fish is i
       </div>
     </a>
     <div class="summary-description">
-      Setting up any UNIX like system comes down to a single startup file. There could be many, if one wants to, the freedom is always there. But generally it starts at a single point.
-OSX / MacOS In this land the file is .bash_profile. Almost all the things can be configured here.
-UBUNTU / Linux Here the file is .bashrc. All the PATH and systemwide settings reside here.
-Both of these files stay in the root of the user home folder in both MacOS and UBUNTU.
+      <p>Setting up any UNIX like system comes down to a single startup file. There could be many, if one wants to, the freedom is always there. But generally it starts at a single point.</p>
+<h1 id="osx--macos">OSX / MacOS</h1>
+<p>In this land the file is <code>.bash_profile</code>. Almost all the things can be configured here.</p>
+<h1 id="ubuntu--linux">UBUNTU / Linux</h1>
+<p>Here the file is <code>.bashrc</code>. All the <code>PATH</code> and systemwide settings reside here.</p>
+<blockquote>
+<p>Both of these files stay in the <code>root</code> of the <code>user</code> home folder in both <code>MacOS</code> and <code>UBUNTU</code>. This folder is referred as <code>~/</code> in both the Operating Systems.</p>
     </div>
   </div>
 
@@ -904,9 +999,11 @@ Both of these files stay in the root of the user home folder in both MacOS and U
       </div>
     </a>
     <div class="summary-description">
-      The year started slow but kept up the steadiness. There were a lot of endings and new beginnings. As always if it flows, it is life.
-Tech and work A new project started.
-For a long long time I was in a stealth mode. Bootstrapping and failing, then start over again and fail. The cycle finally ended. There are huge experience gain in terms of building a product and selling it.
+      <p>The year started slow but kept up the steadiness. There were a lot of endings and new beginnings. As always if it flows, it is life.</p>
+<h1 id="tech-and-work">Tech and work</h1>
+<blockquote>
+<p>A new project started.</p></blockquote>
+<p>For a long long time I was in a stealth mode. Bootstrapping and failing, then start over again and fail. The cycle finally ended. There are huge experience gain in terms of building a product and selling it. It is not just technical but a product is much more than that. <code>One must try it. Atleast once in a lifetime.</code> The outcome is huge.</p>
     </div>
   </div>
 
@@ -930,9 +1027,10 @@ For a long long time I was in a stealth mode. Bootstrapping and failing, then st
       </div>
     </a>
     <div class="summary-description">
-      The natural progress of the frontend tooling. Whether you like it or not, change is here to stay. At the moment the frontend frameworks have reached a point, where we need something else to have a better Developer Experience.
-Applications were always like this and will remain like this.
-What could change is how we write these applications. Divisions have been made to separate the concerns. However in frontend, we had put very little effort in terms of development for a long long time.
+      <p>The natural progress of the frontend tooling. Whether you like it or not, <code>change</code> is here to stay. At the moment the frontend frameworks have reached a point, where we need something else to have a better Developer Experience.</p>
+<blockquote>
+<p>Applications were always like this and will remain like this.</p></blockquote>
+<p>What could change is <code>how</code> we write these applications. Divisions have been made to separate the concerns. However in frontend, we had put very little effort in terms of development for a long long time. We had <code>Flash</code> for a long time. It did its job, but in native browser the whole thing changed when <a href="https://jquery.com/"><code>jQuery</code></a> entered. Almost all websites were made with <a href="https://jquery.com/">jQuery</a>.</p>
     </div>
   </div>
 
@@ -956,9 +1054,10 @@ What could change is how we write these applications. Divisions have been made t
       </div>
     </a>
     <div class="summary-description">
-      The thing that is fixed in code is the change. While lot of books and philosophy is done towards how to reuse the code, very little is focused towards the change!
-The reality of the life of the code is very different from the literature around it.
-All the reusabilty and other thoughts look good in books. In reality I have hardly seen any code is re-used. This is not to diminish the reusabilty of the code.
+      <p>The thing that is fixed in <code>code</code> is the change. While lot of books and philosophy is done towards how to reuse the code, very little is focused towards the <code>change</code>!</p>
+<blockquote>
+<p>The reality of the life of the code is very different from the literature around it.</p></blockquote>
+<p>All the reusabilty and other thoughts look good in books. In reality I have hardly seen any code is re-used. This is not to diminish the reusabilty of the code. But only if you <code>code to re-use it</code> then this is obviously heading towards disaster.</p>
     </div>
   </div>
 
@@ -982,9 +1081,10 @@ All the reusabilty and other thoughts look good in books. In reality I have hard
       </div>
     </a>
     <div class="summary-description">
-      The age old problem which repeats itself is, how to make a single code base for a project which is delivered to multiple platforms?!
-Many tachnologies has come and promised the same thing. The end result is to enter the corporate space. Why!? Money.
-This is the true story of all the technology stacks which promise to have a single codebase. Some really nice technologies has come and stayed for good, some vanished without leaving a trace.
+      <p>The age old problem which repeats itself is, how to make a single code base for a project which is delivered to multiple platforms?!</p>
+<blockquote>
+<p>Many tachnologies has come and promised the same thing. The end result is to enter the corporate space. Why!? Money.</p></blockquote>
+<p>This is the true story of all the technology stacks which promise to have a single codebase. Some really nice technologies has come and stayed for good, some vanished without leaving a trace.</p>
     </div>
   </div>
 
@@ -1008,9 +1108,11 @@ This is the true story of all the technology stacks which promise to have a sing
       </div>
     </a>
     <div class="summary-description">
-      A must upgrade version of React is React 17. I was surprised by the things it brings to the equation.
-I was working on a project which is old. Not so old but kind of not recent also. And we just pushed our production application to live environment.
-At that point I have some time to update the project. So I did. The first upgrade I thought should be the React library itself.
+      <p>A must upgrade version of <a href="https://reactjs.org/">React</a> is React 17.
+I was surprised by the things it brings to the equation.</p>
+<blockquote>
+<p>I was working on a project which is old. Not so old but kind of not recent also. And we just pushed our production application to live environment.</p></blockquote>
+<p>At that point I have some time to update the project. So I did. The first upgrade I thought should be the <code>React</code> library itself. This project was made with <a href="https://create-react-app.dev/">create-react-app</a> and not exited the flow. I was a little worried as to whether to update it or not. Because in past I have maintained a <a href="https://reactjs.org/">React</a> project for some years and knew the pain of upgrading. And this time the project is on <a href="https://create-react-app.dev/">create-react-app</a>. However I took the chance and did upgrade the <code>react-script</code> and other libraries used in the project manually using <a href="https://yarnpkg.com/">yarn</a>. After all this I was hoping things will break and complain about <code>missing dependencies</code> and all that.</p>
     </div>
   </div>
 
@@ -1034,9 +1136,10 @@ At that point I have some time to update the project. So I did. The first upgrad
       </div>
     </a>
     <div class="summary-description">
-      For last 5 months, I was working on a new project. Finally it went live last week.
-It is such an experience to be involved in this kind of projects.
-In terms of frontend technology it is React through and through. It was a re-write of the old project. The project has a global reach and directly affects people. Whatever we are doing has a direct effect on the general people.
+      <p>For last 5 months, I was working on a new project. Finally it went live last week.</p>
+<blockquote>
+<p>It is such an experience to be involved in this kind of projects.</p></blockquote>
+<p>In terms of frontend technology it is <a href="https://reactjs.org/">React</a> through and through. It was a re-write of the old project. The project has a global reach and directly affects people. Whatever we are doing has a direct effect on the general people. So the feedback loop is very small. We have to be on the edge all the time. Any small UX change has an immediate reaction from the user and reaching us within minutes. It is exciting and lot involved.</p>
     </div>
   </div>
 
@@ -1060,10 +1163,13 @@ In terms of frontend technology it is React through and through. It was a re-wri
       </div>
     </a>
     <div class="summary-description">
-      Hugo is fast and just works. However there are certain things you must take into consideration while hosting it.
-Till now one thing I came across is the path for css files. Hugo provides template short codes to deal with them.
-The templating system cares for empty spaces in the template.
-You should be extra careful not to put them. For example href=&quot;{{ .Site.BaseURL }}css/2021.css&quot; and href=&quot;{{ .Site.BaseURL }} css/2021.css&quot; are different.
+      <p><a href="https://gohugo.io/">Hugo</a> is fast and just works.
+However there are certain things you must take into consideration while hosting it.</p>
+<p>Till now one thing I came across is the <code>path</code> for <code>css</code> files. <a href="https://gohugo.io/">Hugo</a> provides template short codes to deal with them.</p>
+<blockquote>
+<p>The templating system cares for empty spaces in the template.</p></blockquote>
+<p>You should be extra careful not to put them.
+For example <code>href=&quot;{{ .Site.BaseURL }}css/2021.css&quot;</code> and <code>href=&quot;{{ .Site.BaseURL }} css/2021.css&quot;</code> are different. Can you see there is a space between <code>}}</code> and <code>css/2021.css</code> in the second example. These kind of things will break the site or theme or both.</p>
     </div>
   </div>
 
@@ -1087,11 +1193,12 @@ You should be extra careful not to put them. For example href=&quot;{{ .Site.Bas
       </div>
     </a>
     <div class="summary-description">
-      A long wait is finally over.
-For a long long time I was lazy and was avoiding the work. But here it is.
-Moved to the Hugo Engine from Wintersmith Engine.
-Never thought I will continue this way. But this is good to start over and over again. This is life if one wants to live. Re-start, Re-build, Re-structure and keep living.
-The last blog is here for the new visitors here.
+      <p>A long wait is finally over.</p>
+<p>For a long long time I was lazy and was avoiding the work. But here it is.</p>
+<p>Moved to the <a href="https://gohugo.io/">Hugo Engine</a> from <a href="http://wintersmith.io/">Wintersmith Engine</a>.</p>
+<p>Never thought I will continue this way. But this is good to start over and over again. This is life if one wants to live. Re-start, Re-build, Re-structure and keep living.</p>
+<p>The <a href="http://saumya.github.io/ray/">last blog is here</a> for the new visitors here.</p>
+<p>For last some years my frequency of blogging was slower than usual. That was another reason, why I was not putting effort on upgrading to new engine. Somehow things are moving in a different direction. That made me think, if I am going to do it anyway, why not now. So the upgrade. And with this, I have released the <a href="https://github.com/saumya/saumya_go_walk">theme(GoWalk) of this site as opensource</a>. It is simple and open, customise it and use it, if you want.</p>
     </div>
   </div>
 
@@ -1137,7 +1244,7 @@ The last blog is here for the new visitors here.
       <strong>Saumya</strong> is an iternal seeker. A maker of things and curious about everything. Continuous learning is, what fuels him. This blog itself, reflects one of many things he is trying at all the time. 
     </div>
     <div class="footer-rights">
-      Saumya | 2025 | No rights reserved.
+      Saumya | 2026 | No rights reserved.
     </div>
   </div>
 

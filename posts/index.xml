@@ -13,7 +13,7 @@
       <link>https://saumya.github.io/2021/posts/41/</link>
       <pubDate>Thu, 01 Jan 2026 15:43:05 +0530</pubDate>
       <guid>https://saumya.github.io/2021/posts/41/</guid>
-      <description>&lt;p&gt;For a casual use, &lt;code&gt;Snaps&lt;/code&gt; seem good. Once it gets regular updates, it becomes obvious that it needs maintainance too.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Unlike the &lt;code&gt;.deb&lt;/code&gt; packages, these things keep on installing all the dependent packages along with the update.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;The main reason I dig into this is for slowness I found while using &lt;code&gt;Snap&lt;/code&gt; for all the things. Sublime, VS Code and Chromium, VLC etc; all these I was running at the same time.&lt;/p&gt;</description>
+      <description>&lt;p&gt;For a casual use, &lt;code&gt;Snaps&lt;/code&gt; seem good. Once it gets regular updates, it becomes obvious that it needs maintenance too.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Unlike the &lt;code&gt;.deb&lt;/code&gt; packages, these things keep on installing all the dependent packages along with the update.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;The main reason I dig into this is for slowness I found while using &lt;code&gt;Snap&lt;/code&gt; for all the things. Sublime, VS Code and Chromium, VLC etc; all these I was running at the same time.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Omarchy Linux</title>
